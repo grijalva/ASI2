@@ -1,0 +1,450 @@
+2013/07/23 19:24:03 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for '-6.0/no DST' instead (C:\inetpub\wwwroot\aplicacion_inventario\protected\views\layouts\main.php:51)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\inetpub\wwwroot\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require()
+#8 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\inetpub\wwwroot\yii\framework\web\CController.php(784): SiteController->renderFile()
+#10 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CWebApplication->run()
+REQUEST_URI=/aplicacion_inventario/index.php
+in C:\inetpub\wwwroot\aplicacion_inventario\protected\views\layouts\main.php (51)
+in C:\inetpub\wwwroot\aplicacion_inventario\protected\views\layouts\column1.php (6)
+in C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\SiteController.php (32)
+2013/07/23 19:27:23 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for '-6.0/no DST' instead (C:\inetpub\wwwroot\aplicacion_inventario\protected\views\layouts\main.php:51)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\inetpub\wwwroot\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require()
+#8 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\inetpub\wwwroot\yii\framework\web\CController.php(784): SiteController->renderFile()
+#10 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CWebApplication->run()
+REQUEST_URI=/aplicacion_inventario/index.php
+in C:\inetpub\wwwroot\aplicacion_inventario\protected\views\layouts\main.php (51)
+in C:\inetpub\wwwroot\aplicacion_inventario\protected\views\layouts\column1.php (6)
+in C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\SiteController.php (32)
+2013/07/23 22:51:20 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "_form".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\user\create.php(15): CController->renderPartial('_form', Array)
+#1 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(82): CController->render('create', Array)
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/create
+HTTP_REFERER=http://localhost/aplicacion_inventario/index.php?r=site/login
+---
+2013/07/23 22:51:44 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "_form".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\user\create.php(15): CController->renderPartial('_form', Array)
+#1 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(82): CController->render('create', Array)
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/create
+HTTP_REFERER=http://localhost/aplicacion_inventario/index.php?r=user
+---
+2013/07/23 22:53:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "create".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('create')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=create
+---
+2013/07/23 22:53:52 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "admin".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(150): CController->render('admin', Array)
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#13 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/admin
+HTTP_REFERER=http://localhost/aplicacion_inventario/index.php?r=user
+---
+2013/07/23 22:54:00 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "_form".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\user\create.php(15): CController->renderPartial('_form', Array)
+#1 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(82): CController->render('create', Array)
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/create
+HTTP_REFERER=http://localhost/aplicacion_inventario/index.php?r=user
+---
+2013/07/23 22:56:37 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "_form".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\user\create.php(15): CController->renderPartial('_form', Array)
+#1 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(82): CController->render('create', Array)
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/create
+HTTP_REFERER=http://localhost/aplicacion_inventario/index.php?r=user
+---
+2013/07/23 23:01:15 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "_form".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\user\create.php(15): CController->renderPartial('_form', Array)
+#1 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(82): CController->render('create', Array)
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/create
+HTTP_REFERER=http://localhost/aplicacion_inventario/index.php?r=user
+---
+2013/07/23 23:03:00 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "_form".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\user\create.php(15): CController->renderPartial('_form', Array)
+#1 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(82): CController->render('create', Array)
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/create
+HTTP_REFERER=http://localhost/aplicacion_inventario/index.php?r=user
+---
+2013/07/23 23:03:57 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "_form".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\user\create.php(15): CController->renderPartial('_form', Array)
+#1 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(82): CController->render('create', Array)
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/create
+HTTP_REFERER=http://localhost/aplicacion_inventario/index.php?r=user
+---
+2013/07/23 23:04:21 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "_form".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\user\create.php(15): CController->renderPartial('_form', Array)
+#1 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(82): CController->render('create', Array)
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/create
+---
+2013/07/23 23:04:45 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "_form".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\aplicacion_inventario\protected\views\user\create.php(15): CController->renderPartial('_form', Array)
+#1 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#5 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\UserController.php(82): CController->render('create', Array)
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\inetpub\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\inetpub\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\inetpub\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/create
+HTTP_REFERER=http://localhost/aplicacion_inventario/index.php?r=user
+---
+2013/07/23 23:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "prueba".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('prueba')
+#1 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('prueba')
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/prueba')
+#3 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/prueba
+---
+2013/07/25 18:53:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "error".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('error')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=error
+---
+2013/07/25 19:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "eduardo".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('eduardo')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=eduardo
+---
+2013/07/25 19:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "eduardo/index".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('eduardo/index')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=eduardo/index
+---
+2013/07/25 19:05:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "s".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('s')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=s
+---
+2013/07/25 19:05:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "eduardo".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('eduardo')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=eduardo
+---
+2013/07/25 19:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "s".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('s')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=s
+---
+2013/07/25 19:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "eduardo".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('eduardo')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=eduardo
+---
+2013/07/25 19:09:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "eduardo/index".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('eduardo/index')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=eduardo/index
+---
+2013/07/25 19:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "eduardo".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('eduardo')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=eduardo
+---
+2013/07/25 19:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=index
+---
+2013/07/25 19:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "prueba".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('prueba')
+#1 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('prueba')
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/prueba')
+#3 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/prueba
+---
+2013/07/25 19:09:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "prueba".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('prueba')
+#1 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('prueba')
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/prueba')
+#3 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=user/prueba
+---
+2013/07/25 19:10:22 [error] [php] Undefined variable: dataProvider (C:\inetpub\wwwroot\aplicacion_inventario\protected\views\eduardo\index.php:15)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(869): eduardoController->renderFile()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(782): eduardoController->renderPartial()
+#2 C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\eduardoController.php(9): eduardoController->render()
+#3 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): eduardoController->actionIndex()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): eduardoController->runAction()
+#6 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): eduardoController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): eduardoController->run()
+#8 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CWebApplication->run()
+REQUEST_URI=/aplicacion_inventario/index.php?r=eduardo
+in C:\inetpub\wwwroot\aplicacion_inventario\protected\views\eduardo\index.php (15)
+in C:\inetpub\wwwroot\aplicacion_inventario\protected\controllers\eduardoController.php (9)
+in C:\inetpub\wwwroot\aplicacion_inventario\index.php (13)
+2013/07/25 19:16:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "prueba".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('prueba')
+#1 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('prueba')
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('eduardo/prueba')
+#3 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=eduardo/prueba
+---
+2013/07/25 19:16:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "prueba".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('prueba')
+#1 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('prueba')
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('eduardo/prueba')
+#3 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\aplicacion_inventario\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/aplicacion_inventario/index.php?r=eduardo/prueba
+---
