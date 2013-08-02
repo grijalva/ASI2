@@ -29,7 +29,7 @@ return array(
 		),
 		
 	),
-
+	'theme'=>'shadow_dancer',
 	// application components
 	'components'=>array(
 		'user'=>array(
