@@ -1,19 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "User".
+ * This is the model class for table "rol_formulario".
  *
- * The followings are the available columns in table 'User':
- * @property integer $id
- * @property string $username
- * @property string $password
- * @property string $email
+ * The followings are the available columns in table 'rol_formulario':
+ * @property integer $id_rol_formulario_privilegio
+ * @property integer $id_formulario
+ * @property integer $id_rol
+ *
+ * The followings are the available model relations:
+ * @property Formulario $idFormulario
+ * @property Rol $idRol
  */
-class User extends CActiveRecord
+class RolFormulario extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
-	 * @return User the static model class
+	 * @param string $className active record class name.
+	 * @return RolFormulario the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -25,7 +29,7 @@ class User extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'User';
+		return 'rol_formulario';
 	}
 
 	/**
@@ -36,11 +40,11 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password, email', 'required'),
-			array('username, password, email', 'length', 'max'=>128),
+			array('id_formulario, id_rol', 'required'),
+			array('id_formulario, id_rol', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password, email', 'safe', 'on'=>'search'),
+			array('id_rol_formulario_privilegio, id_formulario, id_rol', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,6 +56,8 @@ class User extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'idFormulario' => array(self::BELONGS_TO, 'Formulario', 'id_formulario'),
+			'idRol' => array(self::BELONGS_TO, 'Rol', 'id_rol'),
 		);
 	}
 
@@ -61,10 +67,9 @@ class User extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'Id',
-			'username' => 'Username',
-			'password' => 'Password',
-			'email' => 'Email',
+			'id_rol_formulario_privilegio' => 'Id Rol Formulario Privilegio',
+			'id_formulario' => 'Id Formulario',
+			'id_rol' => 'Id Rol',
 		);
 	}
 
@@ -79,15 +84,11 @@ class User extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
+		$criteria->compare('id_rol_formulario_privilegio',$this->id_rol_formulario_privilegio);
+		$criteria->compare('id_formulario',$this->id_formulario);
+		$criteria->compare('id_rol',$this->id_rol);
 
-		$criteria->compare('username',$this->username,true);
-
-		$criteria->compare('password',$this->password,true);
-
-		$criteria->compare('email',$this->email,true);
-
-		return new CActiveDataProvider('User', array(
+		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
