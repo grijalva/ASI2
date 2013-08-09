@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Aplicacion inventario. ASI2',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -19,11 +19,14 @@ return array(
 	),
 
 	'modules'=>array(
+	'admin',
+	'Bodega',
+	'Pedidos',
 		// uncomment the following to enable the Gii tool
 		
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'1812',
+			'password'=>'1234',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
