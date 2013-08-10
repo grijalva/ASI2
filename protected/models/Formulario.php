@@ -6,13 +6,14 @@
  * The followings are the available columns in table 'formulario':
  * @property integer $id_formulario
  * @property string $nombre
+ * @property string $direccion
  * @property string $descripcion
  * @property integer $padre_fk
  *
  * The followings are the available model relations:
  * @property Formulario $padreFk
  * @property Formulario[] $formularios
- * @property RolFormularioPrivilegio[] $rolFormularioPrivilegios
+ * @property RolFormulario[] $rolFormularios
  */
 class Formulario extends CActiveRecord
 {
@@ -42,13 +43,13 @@ class Formulario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre, padre_fk', 'required'),
+			array('nombre, direccion, padre_fk', 'required'),
 			array('padre_fk', 'numerical', 'integerOnly'=>true),
-			array('nombre', 'length', 'max'=>100),
+			array('nombre, direccion', 'length', 'max'=>100),
 			array('descripcion', 'length', 'max'=>1000),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id_formulario, nombre, descripcion, padre_fk', 'safe', 'on'=>'search'),
+			array('id_formulario, nombre, direccion, descripcion, padre_fk', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -62,7 +63,7 @@ class Formulario extends CActiveRecord
 		return array(
 			'padreFk' => array(self::BELONGS_TO, 'Formulario', 'padre_fk'),
 			'formularios' => array(self::HAS_MANY, 'Formulario', 'padre_fk'),
-			'rolFormularioPrivilegios' => array(self::HAS_MANY, 'RolFormularioPrivilegio', 'id_formulario'),
+			'rolFormularios' => array(self::HAS_MANY, 'RolFormulario', 'id_formulario'),
 		);
 	}
 
@@ -74,6 +75,7 @@ class Formulario extends CActiveRecord
 		return array(
 			'id_formulario' => 'Id Formulario',
 			'nombre' => 'Nombre',
+			'direccion' => 'Direccion',
 			'descripcion' => 'Descripcion',
 			'padre_fk' => 'Padre Fk',
 		);
@@ -92,6 +94,7 @@ class Formulario extends CActiveRecord
 
 		$criteria->compare('id_formulario',$this->id_formulario);
 		$criteria->compare('nombre',$this->nombre,true);
+		$criteria->compare('direccion',$this->direccion,true);
 		$criteria->compare('descripcion',$this->descripcion,true);
 		$criteria->compare('padre_fk',$this->padre_fk);
 

@@ -11,20 +11,21 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Campos con <span class="required">*</span> son requeridos</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_formulario'); ?>
-		<?php echo $form->textField($model,'id_formulario'); ?>
-		<?php echo $form->error($model,'id_formulario'); ?>
+		<?php echo $form->labelEx($model,'id_rol'); ?>
+		<?php echo $form->dropDownList($model, 'id_rol',CHtml::listData(Rol::model()->findAll(), 'id_rol', 'nombre')); ?>
+		<?php echo $form->error($model,'id_rol'); ?>
 	</div>
 
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_rol'); ?>
-		<?php echo $form->textField($model,'id_rol'); ?>
-		<?php echo $form->error($model,'id_rol'); ?>
+		<?php echo $form->labelEx($model,'id_formulario'); ?>
+		<?php echo $form->dropDownList($model, 'id_formulario',CHtml::listData(Formulario::model()->findAll(), 'id_formulario', 'nombre')); ?>
+		<?php echo $form->error($model,'id_formulario'); ?>
 	</div>
 
 	<div class="row buttons">

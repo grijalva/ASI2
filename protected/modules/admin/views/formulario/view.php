@@ -23,6 +23,7 @@ $this->menu=array(
 	'attributes'=>array(
 		'id_formulario',
 		'nombre',
+		'direccion',
 		'descripcion',
 		'padre_fk',
 	),

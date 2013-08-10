@@ -9,8 +9,8 @@ class PedidosModule extends CWebModule
 
 		// import the module-level models and components
 		$this->setImport(array(
-			'Pedidos.models.*',
-			'Pedidos.components.*',
+			'pedidos.models.*',
+			'pedidos.components.*',
 		));
 	}
 

@@ -20,8 +20,8 @@ return array(
 
 	'modules'=>array(
 	'admin',
-	'Bodega',
-	'Pedidos',
+	'bodega',
+	'pedidos',
 		// uncomment the following to enable the Gii tool
 		
 		'gii'=>array(
@@ -35,6 +35,11 @@ return array(
 	'theme'=>'shadow_dancer',
 	// application components
 	'components'=>array(
+		'urlManager'=>array(
+			'urlFormat'=>'path',
+			'showScriptName'=>false,
+			'caseSensitive'=>false, 
+			),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

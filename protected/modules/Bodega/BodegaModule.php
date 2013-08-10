@@ -9,8 +9,8 @@ class BodegaModule extends CWebModule
 
 		// import the module-level models and components
 		$this->setImport(array(
-			'Bodega.models.*',
-			'Bodega.components.*',
+			'bodega.models.*',
+			'bodega.components.*',
 		));
 	}
 

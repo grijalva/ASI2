@@ -22,6 +22,12 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->labelEx($model,'direccion'); ?>
+		<?php echo $form->textField($model,'direccion',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'direccion'); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->labelEx($model,'descripcion'); ?>
 		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>1000)); ?>
 		<?php echo $form->error($model,'descripcion'); ?>
@@ -29,7 +35,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'padre_fk'); ?>
-		<?php echo $form->textField($model,'padre_fk'); ?>
+		<?php echo $form->dropDownList($model, 'padre_fk',CHtml::listData(Formulario::model()->findAll(), 'id_formulario', 'nombre')); ?>
 		<?php echo $form->error($model,'padre_fk'); ?>
 	</div>
 
