@@ -36,7 +36,7 @@ return array(
 	// application components
 	'components'=>array(
 		'urlManager'=>array(
-			'urlFormat'=>'path',
+			//'urlFormat'=>'path',
 			'showScriptName'=>false,
 			'caseSensitive'=>false, 
 			),
