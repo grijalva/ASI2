@@ -4,7 +4,7 @@
  * This is the model class for table "rol_formulario".
  *
  * The followings are the available columns in table 'rol_formulario':
- * @property integer $id_rol_formulario_privilegio
+ * @property integer $id_rol_formulario
  * @property integer $id_formulario
  * @property integer $id_rol
  *
@@ -44,7 +44,7 @@ class RolFormulario extends CActiveRecord
 			array('id_formulario, id_rol', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id_rol_formulario_privilegio, id_formulario, id_rol', 'safe', 'on'=>'search'),
+			array('id_rol_formulario, id_formulario, id_rol', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -67,7 +67,7 @@ class RolFormulario extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_rol_formulario_privilegio' => 'Id Rol Formulario Privilegio',
+			'id_rol_formulario' => 'Id Rol Formulario',
 			'id_formulario' => 'Id Formulario',
 			'id_rol' => 'Id Rol',
 		);
@@ -84,7 +84,7 @@ class RolFormulario extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id_rol_formulario_privilegio',$this->id_rol_formulario_privilegio);
+		$criteria->compare('id_rol_formulario',$this->id_rol_formulario);
 		$criteria->compare('id_formulario',$this->id_formulario);
 		$criteria->compare('id_rol',$this->id_rol);
 

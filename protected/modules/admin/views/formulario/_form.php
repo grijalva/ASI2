@@ -35,7 +35,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'padre_fk'); ?>
-		<?php echo $form->dropDownList($model, 'padre_fk',CHtml::listData(Formulario::model()->findAll(), 'id_formulario', 'nombre')); ?>
+		<?php echo $form->dropDownList($model, 'padre_fk',array(''=>'padre', CHtml::listData(Formulario::model()->findAll(), 'id_formulario', 'nombre'))); ?>
 		<?php echo $form->error($model,'padre_fk'); ?>
 	</div>
 

@@ -43,7 +43,7 @@ class Formulario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre, direccion, padre_fk', 'required'),
+			array('nombre, direccion', 'required'),
 			array('padre_fk', 'numerical', 'integerOnly'=>true),
 			array('nombre, direccion', 'length', 'max'=>100),
 			array('descripcion', 'length', 'max'=>1000),

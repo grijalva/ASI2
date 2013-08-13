@@ -7,8 +7,8 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Aplicacion inventario. ASI2',
-
+	'name'=>'GESTION DDE DISTRIBUCION Y REGRISTRO DE INVENTARIO DE PAPELERIA Y SOLICITUDES WEB. SERVICIOS FINANCIEROS ENLACES S.A DE C.V.',
+	'language'=>'es_es',
 	// preloading 'log' component
 	'preload'=>array('log'),
 
