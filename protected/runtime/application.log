@@ -6218,3 +6218,12 @@ REQUEST_URI=/ASI2/?r=gii/crud
 HTTP_REFERER=http://localhost/ASI2/?r=gii/controller
 >>>>>>> 59a6472de6916ed90e947090aac360d43b431c1f
 ---
+2013/08/12 20:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/shadow_dancer/images/small_icons/sitemap_color.png".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/shadow_d...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/themes/shadow_dancer/images/small_icons/sitemap_color.png
+HTTP_REFERER=http://localhost/ASI2/admin/formulario/
+---
