@@ -1,9 +1,9 @@
--- phpMyAdmin SQL Dump
+﻿-- phpMyAdmin SQL Dump
 -- version 3.4.11.1deb1
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 13-08-2013 a las 00:40:23
+-- Tiempo de generación: 14-08-2013 a las 00:22:44
 -- Versión del servidor: 5.5.32
 -- Versión de PHP: 5.4.6-1ubuntu1.3
 
@@ -337,7 +337,14 @@ CREATE TABLE IF NOT EXISTS `documento` (
   PRIMARY KEY (`id_documento`),
   KEY `id_empleado` (`id_empleado`),
   KEY `id_empleado_2` (`id_empleado`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `documento`
+--
+
+INSERT INTO `documento` (`id_documento`, `nombre`, `numero`, `id_empleado`) VALUES
+(1, 'DUI', '141524272451', 1);
 
 -- --------------------------------------------------------
 
@@ -362,7 +369,14 @@ CREATE TABLE IF NOT EXISTS `empleado` (
   PRIMARY KEY (`id_empleado`),
   KEY `id_cargo` (`id_cargo`),
   KEY `id_agencia` (`id_agencia`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `empleado`
+--
+
+INSERT INTO `empleado` (`id_empleado`, `nombres`, `apellidos`, `direccion`, `tel_casa`, `tel_movil`, `email`, `genero`, `fecha_nacimiento`, `fecha_ingreso`, `estado`, `id_cargo`, `id_agencia`) VALUES
+(1, 'Luis jose', 'ramirez', NULL, '22222222', '77777777', NULL, 'M', '1983-01-17', '2013-08-11', 'A', 5, 1);
 
 -- --------------------------------------------------------
 
@@ -614,7 +628,16 @@ CREATE TABLE IF NOT EXISTS `producto` (
   PRIMARY KEY (`id_producto`),
   KEY `id_marca` (`id_marca`),
   KEY `id_categoria_producto` (`id_categoria_producto`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+
+--
+-- Volcado de datos para la tabla `producto`
+--
+
+INSERT INTO `producto` (`id_producto`, `nombre`, `descripcion`, `url`, `id_marca`, `id_categoria_producto`) VALUES
+(1, 'Resma 500 paginas', '95% blanco', NULL, 1, 1),
+(2, 'Resma 500 paginas', '95% blanco', NULL, 2, 1),
+(3, 'Boligrafo Bic', 'Azul', NULL, 4, 4);
 
 -- --------------------------------------------------------
 
@@ -630,7 +653,15 @@ CREATE TABLE IF NOT EXISTS `proveedor` (
   `id_municipio` int(11) DEFAULT NULL,
   PRIMARY KEY (`id_proveedor`),
   KEY `id_municipio` (`id_municipio`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Volcado de datos para la tabla `proveedor`
+--
+
+INSERT INTO `proveedor` (`id_proveedor`, `nombre`, `direccion`, `tel_contacto`, `id_municipio`) VALUES
+(1, 'Office Depot', 'Calle La Leona', '2222222', 1),
+(2, 'Sears', 'Multiplaza', '33333333', 3);
 
 -- --------------------------------------------------------
 
@@ -690,7 +721,15 @@ CREATE TABLE IF NOT EXISTS `tipo_factura` (
   `nombre` varchar(100) NOT NULL,
   `descripcion` varchar(1000) DEFAULT NULL,
   PRIMARY KEY (`id_tipo_factura`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Volcado de datos para la tabla `tipo_factura`
+--
+
+INSERT INTO `tipo_factura` (`id_tipo_factura`, `nombre`, `descripcion`) VALUES
+(1, 'Credito Fiscal', NULL),
+(2, 'Consumidor Final', NULL);
 
 -- --------------------------------------------------------
 
@@ -703,7 +742,15 @@ CREATE TABLE IF NOT EXISTS `tipo_pago` (
   `nombre` varchar(100) NOT NULL,
   `descripcion` varchar(1000) DEFAULT NULL,
   PRIMARY KEY (`id_tipo_pago`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Volcado de datos para la tabla `tipo_pago`
+--
+
+INSERT INTO `tipo_pago` (`id_tipo_pago`, `nombre`, `descripcion`) VALUES
+(1, 'Contado', NULL),
+(2, 'Credito', NULL);
 
 -- --------------------------------------------------------
 
@@ -731,7 +778,18 @@ CREATE TABLE IF NOT EXISTS `unidad_de_medida` (
   `nombre` varchar(100) NOT NULL,
   `descripcion` varchar(1000) DEFAULT NULL,
   PRIMARY KEY (`id_unidad`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+--
+-- Volcado de datos para la tabla `unidad_de_medida`
+--
+
+INSERT INTO `unidad_de_medida` (`id_unidad`, `nombre`, `descripcion`) VALUES
+(1, 'Caja de 12 unidades', NULL),
+(2, 'Caja de 50 unidades', NULL),
+(3, 'Metros', NULL),
+(4, 'Kilogramo', NULL),
+(5, '100 Unidades', NULL);
 
 -- --------------------------------------------------------
 
@@ -817,16 +875,16 @@ ALTER TABLE `detalle_cotizacion`
 -- Filtros para la tabla `detalle_devolucion`
 --
 ALTER TABLE `detalle_devolucion`
-  ADD CONSTRAINT `detalle_devolucion_ibfk_2` FOREIGN KEY (`id_lote`) REFERENCES `lote` (`id_lote`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `detalle_devolucion_ibfk_1` FOREIGN KEY (`id_devolucion`) REFERENCES `devolucion` (`id_devolucion`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `detalle_devolucion_ibfk_1` FOREIGN KEY (`id_devolucion`) REFERENCES `devolucion` (`id_devolucion`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `detalle_devolucion_ibfk_2` FOREIGN KEY (`id_lote`) REFERENCES `lote` (`id_lote`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `detalle_envio`
 --
 ALTER TABLE `detalle_envio`
-  ADD CONSTRAINT `detalle_envio_ibfk_3` FOREIGN KEY (`id_lote`) REFERENCES `lote` (`id_lote`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `detalle_envio_ibfk_1` FOREIGN KEY (`id_envio`) REFERENCES `envio` (`id_envio`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `detalle_envio_ibfk_2` FOREIGN KEY (`id_inventario`) REFERENCES `inventario` (`id_inventario`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `detalle_envio_ibfk_2` FOREIGN KEY (`id_inventario`) REFERENCES `inventario` (`id_inventario`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `detalle_envio_ibfk_3` FOREIGN KEY (`id_lote`) REFERENCES `lote` (`id_lote`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `detalle_requisicion`
@@ -864,10 +922,10 @@ ALTER TABLE `encargado`
 -- Filtros para la tabla `envio`
 --
 ALTER TABLE `envio`
-  ADD CONSTRAINT `envio_ibfk_4` FOREIGN KEY (`agencia_destino`) REFERENCES `agencia` (`id_agencia`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `envio_ibfk_1` FOREIGN KEY (`usuario_envia`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `envio_ibfk_2` FOREIGN KEY (`agencia_origen`) REFERENCES `agencia` (`id_agencia`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `envio_ibfk_3` FOREIGN KEY (`usuario_recibe`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `envio_ibfk_3` FOREIGN KEY (`usuario_recibe`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `envio_ibfk_4` FOREIGN KEY (`agencia_destino`) REFERENCES `agencia` (`id_agencia`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `estante`
