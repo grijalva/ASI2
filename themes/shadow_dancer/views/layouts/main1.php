@@ -31,7 +31,7 @@
 		<div class="topnav_text"><a href='#'>Home</a> | <a href='#'>My Account</a> | <a href='#'>Settings</a> | <a href='#'>Logout</a> </div>
 	</div>
 	<div id="header">
-		<div id="logo"><a href="?"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"/></a><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo"><a href="?"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"></img></a><?php echo CHtml::encode(Yii::app()->name); ?></div>
 	</div><!-- header -->
     <!--
 <?php /*$this->widget('application.extensions.mbmenu.MbMenu',array(
@@ -61,61 +61,69 @@
     )); */?> --->
 	<div id="mainmenu">
     
-		<?php
-		
-		$criteria=new CDbCriteria;
-		$criteria->condition='padre_fk=1 and id_formulario <> 1';
-		$formulario = new Formulario;
-		$formularios = Formulario::model()->findAll($criteria);
-		$form1 = new Formulario;
-		$form2 = new Formulario;
-		$form3 = new Formulario;
-		$form4 = new Formulario;
-
-        $menu = array();
-        $menu1 = array();
-        $menu2 = array();
-
-        foreach($formularios as $formulario){
-            $menu1['url'] = array('route'=>($formulario->direccion));
-            $menu1['label'] = $formulario->nombre;
-			$criteria=new CDbCriteria;
-			$criteria->condition='padre_fk=:id_formulario';
-            $criteria->params=array(':id_formulario'=>($formulario->id_formulario));
-			$form1=Formulario::model()->findAll($criteria);
-            if($form1!==null || !empty($form1)){
-                foreach($form1 as $form2){
-                    $menu2['url'] = array('route'=>($form2->direccion));
-                    $menu2['label'] = $form2->nombre;
-					$criteria=new CDbCriteria;
-					$criteria->condition='padre_fk=:id_formulario';
-                    $criteria->params=array(':id_formulario'=>($form2->id_formulario));
-                    $form3=Formulario::model()->findAll($criteria);
-                    if($form3!==null || !empty($form3)){
-                        foreach($form3 as $form4){
-                            $menu3['url'] = array('route'=>($form4->direccion));
-                            $menu3['label'] = $form4->nombre;
-                            $menu2[]=$menu3;
-                        }
-                    }
-                    $menu1[]=$menu2;
-                }
-            }
-            $menu[]=$menu1;
-			$menu1= array();
-			$menu2= array();
-			$menu3= array();
-            $menu['stylesheet'] = "menu_blue.css";
-            $menu['menuID'] = "myMenu";
-            $menu['delay'] = 3;
-        }
-
-        $this->widget('application.extensions.menu.SMenu',
-            array(
-                'menu'=>$menu
-            )
-        );
-
+		<?php 
+		$this->widget('application.extensions.menu.SMenu',
+array(
+"menu"=>array(
+ /*Este es menu1*/ array("url"=>array(
+               "route"=>"/product/create"),
+               "label"=>"Sspiner",
+ /* Menu 2*/         array("url"=>array(
+                       "route"=>"/product/create"),
+                       "label"=>"Create product"),
+          array("url"=>array(
+                      "route"=>"/product/list"),
+                      "label"=>"Product List",),
+          array("url"=>"",
+                       "label"=>"View Products",
+          array("url"=>array(
+                       "route"=>"/product/show"),
+                       "label"=>"Product 3"),
+            array("url"=>array(
+                         "route"=>"/product/show",
+                         "params"=>array("id"=>4)),
+                         "label"=>"Product 4",
+                array("url"=>array(
+                             "route"=>"/product/show",
+                             "params"=>array("id"=>5)),
+                             "label"=>"Product 5")))),
+          array("url"=>array(
+                       "route"=>"/event/create"),
+                       "label"=>"Scalendar"),
+          array("url"=>array(),
+                       "label"=>"Admin",
+              array("url"=>array(
+                           "route"=>"/event/admin"),
+                           "label"=>"Scalendar Admin"),
+                  array("url"=>array(
+                               "route"=>"/product/admin"),
+                               "label"=>"Sspinner Admin"),
+                  array("url"=>array(
+                               "route"=>"/product/admin"),
+                               "label"=>"Disabled Link",
+                               "disabled"=>true)),
+          array("url"=>array(),
+                       "label"=>"Documentation",
+              array("url"=>array(
+                           "link"=>"http://www.yiiframework.com",
+                           "htmlOptions"=>array("target"=>"_BLANK")),
+                           "label"=>"Yii Framework"),
+              array("url"=>array(
+                           "route"=>"site/spinnerDoc"),
+                           "label"=>"Sspinner"),
+              array("url"=>array(
+                           "route"=>"site/calendarDoc"),
+                           "label"=>"Scalendar"),
+              array("url"=>array(
+                           "route"=>"site/menuDoc"),
+                           "label"=>"Smenu"),
+                )
+          ),
+"stylesheet"=>"menu_blue.css",
+"menuID"=>"myMenu",
+"delay"=>3
+)
+);
 		?>
 	</div> <!--mainmenu -->
 	<?php if(isset($this->breadcrumbs)):?>

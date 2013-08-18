@@ -31,7 +31,7 @@
 		<div class="topnav_text"><a href='#'>Home</a> | <a href='#'>My Account</a> | <a href='#'>Settings</a> | <a href='#'>Logout</a> </div>
 	</div>
 	<div id="header">
-		<div id="logo"><a href="?"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"/></a><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo"><a href="?"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"></img></a><?php echo CHtml::encode(Yii::app()->name); ?></div>
 	</div><!-- header -->
     <!--
 <?php /*$this->widget('application.extensions.mbmenu.MbMenu',array(
@@ -61,61 +61,53 @@
     )); */?> --->
 	<div id="mainmenu">
     
-		<?php
-		
-		$criteria=new CDbCriteria;
-		$criteria->condition='padre_fk=1 and id_formulario <> 1';
+		<?php 
 		$formulario = new Formulario;
-		$formularios = Formulario::model()->findAll($criteria);
+		$formularios = Formulario::model()->findByPk(1);
 		$form1 = new Formulario;
 		$form2 = new Formulario;
 		$form3 = new Formulario;
 		$form4 = new Formulario;
-
-        $menu = array();
-        $menu1 = array();
-        $menu2 = array();
-
-        foreach($formularios as $formulario){
-            $menu1['url'] = array('route'=>($formulario->direccion));
-            $menu1['label'] = $formulario->nombre;
-			$criteria=new CDbCriteria;
-			$criteria->condition='padre_fk=:id_formulario';
-            $criteria->params=array(':id_formulario'=>($formulario->id_formulario));
-			$form1=Formulario::model()->findAll($criteria);
-            if($form1!==null || !empty($form1)){
-                foreach($form1 as $form2){
-                    $menu2['url'] = array('route'=>($form2->direccion));
-                    $menu2['label'] = $form2->nombre;
-					$criteria=new CDbCriteria;
-					$criteria->condition='padre_fk=:id_formulario';
-                    $criteria->params=array(':id_formulario'=>($form2->id_formulario));
-                    $form3=Formulario::model()->findAll($criteria);
-                    if($form3!==null || !empty($form3)){
-                        foreach($form3 as $form4){
-                            $menu3['url'] = array('route'=>($form4->direccion));
-                            $menu3['label'] = $form4->nombre;
-                            $menu2[]=$menu3;
-                        }
-                    }
-                    $menu1[]=$menu2;
-                }
-            }
-            $menu[]=$menu1;
-			$menu1= array();
-			$menu2= array();
-			$menu3= array();
-            $menu['stylesheet'] = "menu_blue.css";
-            $menu['menuID'] = "myMenu";
-            $menu['delay'] = 3;
-        }
-
-        $this->widget('application.extensions.menu.SMenu',
-            array(
-                'menu'=>$menu
-            )
-        );
-
+		$criteria=new CDbCriteria;
+		$criteria->condition='padre_fk=:id_formulario';
+		$this->widget('application.extensions.menu.SMenu',
+		array(
+			'menu'=>array(
+			 array("url"=>array(
+			 
+			 foreach($formularios as $formulario){
+			 
+				"label"=>$formulario->'nombre',
+				$criteria->params=array(':id_formulario'=>$formulario->'id_formulario');
+			    $form1=Formulario::model()->findAll($criteria);
+			   
+			   if($form1===null || empty($form1)){
+					"route"=>$formulario->'direccion'),
+			   }else{
+					
+					foreach($form1 as $form2){
+					array("url"=>array(
+                       "label"=>$form2->'nombre'),
+					   $criteria->params=array(':id_formulario'=>$form2->'id_formulario');
+						$form3=Formulario::model()->findAll($criteria);
+					   if($form3===null || empty($form3)){
+                       "route"=>$form2->'direccion',
+					   }else{
+            array("url"=>array(
+						foreach($form3 as $form4){
+                         "route"=>$form4->'direccion',
+                         "label"=>$form4->'nombre',
+						 }
+						}
+					}
+				}
+			}
+          ),
+			"stylesheet"=>"menu_blue.css",
+			"menuID"=>"myMenu",
+			"delay"=>3
+			)
+			);
 		?>
 	</div> <!--mainmenu -->
 	<?php if(isset($this->breadcrumbs)):?>

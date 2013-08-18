@@ -64,89 +64,109 @@ body
 	padding: 10px 20px;
 }
 
-#mainmenu
-{
-	/*background:white url(bg.gif) repeat-x left top;background-image:url(http://inventory.simpson.com/dashboard-download/images/el_bg.png);*/
-	background-color:#333333;
-	height: 42px;
-	
-  
-
-}
-
-#mainmenu ul
-{
-	padding:6px 20px 5px 20px;
-	margin:0px;
-	
-}
-
-#mainmenu ul li
-{
-	display: inline;
-  background-attachment:initial;
-  background-clip:initial;
+ul.menu {
+  list-style:none;
+  margin:0;
+  padding:0;
   background-color:#333333;
-  background-image:url(../images/el_bg.png);
-  background-origin:initial;
-  background-position:0 0;
-  background-repeat:repeat no-repeat;
-  border-bottom-color:initial;
-  border-bottom-style:none;
-  border-bottom-width:initial;
-  border-image:initial;
-  border-left-color:#222222;
-  border-left-style:solid;
-  border-left-width:1px;
-  border-right-color:#222222;
-  border-right-style:solid;
-  border-right-width:1px;
-  border-top-color:#222222;
-  border-top-style:solid;
-  border-top-width:1px;
-  float:left;
-  list-style-type:none;
-  margin-bottom:0;
-  margin-left:0.1em;
-  margin-right:0.1em;
-  margin-top:0;
+	height: 42px;
+}
+ul.menu * {
+  margin:0;
+  padding:0
+}
+ul.menu a {
+  display:block;
+  color:#ffffff;
+  text-decoration:none;
+  background-color: #transparent;
+  
+}
+ul.menu li {
   position:relative;
-  padding-left:20px;
-  padding-right:20px;
-  height:35px;
+  float:left;
+  
+}
+ul.menu ul {
+  position:absolute;
+  top:26px;
+  left:0;
+  background:#d1d1d1;
+  display:none;
+  opacity:0;
+  list-style:none
+}
+ul.menu ul li {
+  position:relative;
+  border:1px solid #aaa;
+  border-top:none;
+  width:148px;
+  margin:0
+}
+ul.menu ul li a {
+  display:block;
+  padding:3px 7px 5px;
+  background-color: #transparent;
+}
+ul.menu ul li a:hover {
+  background-color:#666666;
+  color: #cccc;
+}
+ul.menu ul ul {
+  left:148px;
+  top:-1px
+}
+ul.menu .menulink {
+  border:1px solid #aaa;
+  padding:5px 7px 7px;
+  font-weight:bold;
+  width:134px;
+  background-color: #transparent;
 }
 
-#mainmenu ul li.active
-{
-  display: inline;
-  background-attachment:initial;
-  background-clip:initial;
-  background-color:#F1F1F1;
-  background-image:none;
+ul.menu .disabled {
+  border:1px solid #aaa;
+  padding:5px 7px 7px;
+  font-weight:bold;
+  width:134px;
+  background-color: #transparent;
+  color: #cccccc;
 }
 
-#mainmenu ul li.active a
-{
-  color:#333333!important;
+ul.menu .disabled:hover {
+  background-color: #666666;
+  color: #cccc;
+}
+ul.menu .menulink:hover, ul.menu .menuhover {
+  background-color:#666666;
+  color: #cccc;
+}
+ul.menu .sub {
+  height: 13px;
 }
 
-#mainmenu ul li a
-{
-	color:#ffffff;
-	background-color:transparent;
-	font-size:12px;
-	font-weight:bold;
-	text-decoration:none;
-	display:block;
-	height:35px;
-	padding-top:10px;
-
+ul.menu .arrow{
+  top:6px;
+  padding-left:10px;
+  position:relative;
+  float:right
 }
 
-#mainmenu ul li a:hover, #mainmenu ul li.active a
-{
-	color: #cccc;
+ul.menu .sub2 {
+ 
 }
+ul.menu .topline {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: solid;
+  border-right-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 2px;
+}
+
 .infoBar {
   border: solid 1px #CCCCCC;
   background-color:#F9F9F9;

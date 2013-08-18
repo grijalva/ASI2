@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'GESTION DDE DISTRIBUCION Y REGRISTRO DE INVENTARIO DE PAPELERIA Y SOLICITUDES WEB. SERVICIOS FINANCIEROS ENLACES S.A DE C.V.',
+	'name'=>'GESTION DE DISTRIBUCION Y REGRISTRO DE INVENTARIO DE PAPELERIA Y SOLICITUDES WEB. SERVICIOS FINANCIEROS ENLACES S.A DE C.V.',
 	'language'=>'es_es',
 	// preloading 'log' component
 	'preload'=>array('log'),
