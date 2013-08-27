@@ -3,12 +3,8 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Formularios',
-);
-
-$this->menu=array(
-	array('label'=>'Create Formulario', 'url'=>array('create')),
-	array('label'=>'Manage Formulario', 'url'=>array('admin')),
+	$this->module->id=>("/ASI2/".$this->module->id),
+    $model->tableName(),
 );
 ?>
 

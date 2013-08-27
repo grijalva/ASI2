@@ -3,13 +3,11 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Usuarios',
+	$this->module->id=>("/ASI2/".$this->module->id),
+    $model->tableName()=>("/ASI2/".$this->module->id."/rolFormulario"),
+    $this->action->id,
 );
 
-$this->menu=array(
-	array('label'=>'Create Usuario', 'url'=>array('create')),
-	array('label'=>'Manage Usuario', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Usuarios</h1>

@@ -3,8 +3,9 @@
 /* @var $model RolFormulario */
 
 $this->breadcrumbs=array(
-	'Rol Formularios'=>array('index'),
-	'Create',
+	$this->module->id=>("/ASI2/".$this->module->id),
+    $model->tableName()=>("/ASI2/".$this->module->id."/rolFormulario"),
+    $this->action->id,
 );
 
 $this->menu=array(
@@ -13,6 +14,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create RolFormulario</h1>
+<h1>Crear Rol-Formulario</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

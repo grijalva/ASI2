@@ -13,10 +13,11 @@ class UsuarioController extends Controller
 	 */
 	public function filters()
 	{
+	/*
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
-		);
+		); */
 	}
 
 	/**
@@ -122,9 +123,10 @@ class UsuarioController extends Controller
 	 */
 	public function actionIndex()
 	{
+		$model= new Usuario;
 		$dataProvider=new CActiveDataProvider('Usuario');
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
+			'dataProvider'=>$dataProvider, 'model'=>$model,
 		));
 	}
 
@@ -154,7 +156,7 @@ class UsuarioController extends Controller
 	{
 		$model=Usuario::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
+			throw new CHttpException(404,'La pagina no existe o usted no tiene acceso a ella');
 		return $model;
 	}
 

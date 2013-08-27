@@ -28,10 +28,10 @@
 
 <div class="container" id="page">
 	<div id="topnav">
-		<div class="topnav_text"><a href='#'>Home</a> | <a href='#'>My Account</a> | <a href='#'>Settings</a> | <a href='#'>Logout</a> </div>
+		<div class="topnav_text"><a href='/ASI2'>Home</a> | <a href='#'>Logout</a> </div>
 	</div>
 	<div id="header">
-		<div id="logo"><a href="?"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"/></a><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo"><a href="/ASI2"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"/></a><?php echo CHtml::encode(Yii::app()->name); ?></div>
 	</div><!-- header -->
     <!--
 <?php /*$this->widget('application.extensions.mbmenu.MbMenu',array(
@@ -96,20 +96,23 @@
                             $menu3['url'] = array('route'=>($form4->direccion));
                             $menu3['label'] = $form4->nombre;
                             $menu2[]=$menu3;
+							$menu3= array();
                         }
+						
                     }
                     $menu1[]=$menu2;
+					$menu2= array();
                 }
+				
             }
             $menu[]=$menu1;
 			$menu1= array();
-			$menu2= array();
-			$menu3= array();
+			
+			
             $menu['stylesheet'] = "menu_blue.css";
             $menu['menuID'] = "myMenu";
             $menu['delay'] = 3;
         }
-
         $this->widget('application.extensions.menu.SMenu',
             array(
                 'menu'=>$menu

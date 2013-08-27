@@ -13,10 +13,11 @@ class RolFormularioController extends Controller
 	 */
 	public function filters()
 	{
-		/**return array(
+	/*
+		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
-		);**/
+		);*/
 	}
 
 	/**
@@ -63,6 +64,7 @@ class RolFormularioController extends Controller
 	public function actionCreate()
 	{
 		$model=new RolFormulario;
+		
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -70,8 +72,15 @@ class RolFormularioController extends Controller
 		if(isset($_POST['RolFormulario']))
 		{
 			$model->attributes=$_POST['RolFormulario'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_rol_formulario_privilegio));
+			foreach($model->id_formulario as $id_form){
+			$modelo=new RolFormulario;
+			$modelo->id_formulario = $id_form;
+			$modelo->id_rol = $model->id_rol;
+				if($modelo->save()){
+					echo "hola".$id_form;
+				}
+			}
+				$this->redirect(array('view','id'=>$modelo->id_rol_formulario));
 		}
 
 		$this->render('create',array(
@@ -95,7 +104,7 @@ class RolFormularioController extends Controller
 		{
 			$model->attributes=$_POST['RolFormulario'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_rol_formulario_privilegio));
+				$this->redirect(array('view','id'=>$model->id_rol_formulario));
 		}
 
 		$this->render('update',array(
@@ -122,9 +131,10 @@ class RolFormularioController extends Controller
 	 */
 	public function actionIndex()
 	{
+		$model = new RolFormulario;
 		$dataProvider=new CActiveDataProvider('RolFormulario');
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
+			'dataProvider'=>$dataProvider, 'model'=>$model,
 		));
 	}
 
@@ -154,7 +164,7 @@ class RolFormularioController extends Controller
 	{
 		$model=RolFormulario::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
+			throw new CHttpException(404,'La pagina no existe o usted no tiene acceso a ella');
 		return $model;
 	}
 

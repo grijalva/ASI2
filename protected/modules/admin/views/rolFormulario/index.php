@@ -3,13 +3,10 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Rol Formularios',
+	$this->module->id=>("/ASI2/".$this->module->id),
+    $model->tableName()=>("/ASI2/".$this->module->id."/rolFormulario"),
 );
 
-$this->menu=array(
-	array('label'=>'Create RolFormulario', 'url'=>array('create')),
-	array('label'=>'Manage RolFormulario', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Rol Formularios</h1>

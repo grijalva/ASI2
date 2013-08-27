@@ -41,7 +41,7 @@ class RolFormulario extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('id_formulario, id_rol', 'required'),
-			array('id_formulario, id_rol', 'numerical', 'integerOnly'=>true),
+			array(' id_rol', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id_rol_formulario, id_formulario, id_rol', 'safe', 'on'=>'search'),

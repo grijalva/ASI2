@@ -3,19 +3,14 @@
 /* @var $model Rol */
 
 $this->breadcrumbs=array(
-	'Rols'=>array('index'),
-	$model->id_rol=>array('view','id'=>$model->id_rol),
-	'Update',
+	$this->module->id=>("/ASI2/".$this->module->id),
+    $model->tableName()=>("/ASI2/".$this->module->id."/".$model->tableName()),
+    $this->action->id,
+	$model->id_rol,
 );
 
-$this->menu=array(
-	array('label'=>'List Rol', 'url'=>array('index')),
-	array('label'=>'Create Rol', 'url'=>array('create')),
-	array('label'=>'View Rol', 'url'=>array('view', 'id'=>$model->id_rol)),
-	array('label'=>'Manage Rol', 'url'=>array('admin')),
-);
 ?>
 
-<h1>Update Rol <?php echo $model->id_rol; ?></h1>
+<h1>Actualizar Rol <?php echo $model->id_rol; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

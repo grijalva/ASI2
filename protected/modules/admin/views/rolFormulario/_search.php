@@ -12,8 +12,8 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_rol_formulario_privilegio'); ?>
-		<?php echo $form->textField($model,'id_rol_formulario_privilegio'); ?>
+		<?php echo $form->label($model,'id_rol_formulario'); ?>
+		<?php echo $form->textField($model,'id_rol_formulario'); ?>
 	</div>
 
 	<div class="row">

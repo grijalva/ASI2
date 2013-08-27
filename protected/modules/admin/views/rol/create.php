@@ -3,16 +3,13 @@
 /* @var $model Rol */
 
 $this->breadcrumbs=array(
-	'Rols'=>array('index'),
-	'Create',
+	$this->module->id=>("/ASI2/".$this->module->id),
+    $model->tableName()=>("/ASI2/".$this->module->id."/".$model->tableName()),
+    $this->action->id,
 );
 
-$this->menu=array(
-	array('label'=>'List Rol', 'url'=>array('index')),
-	array('label'=>'Manage Rol', 'url'=>array('admin')),
-);
 ?>
 
-<h1>Create Rol</h1>
+<h1>Crear Rol</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

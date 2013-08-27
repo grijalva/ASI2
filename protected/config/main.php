@@ -10,7 +10,7 @@ return array(
 	'name'=>'GESTION DE DISTRIBUCION Y REGRISTRO DE INVENTARIO DE PAPELERIA Y SOLICITUDES WEB. SERVICIOS FINANCIEROS ENLACES S.A DE C.V.',
 	'language'=>'es_es',
 	// preloading 'log' component
-	'preload'=>array('log'),
+	'preload'=>array('log', 'bootstrap'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -35,6 +35,10 @@ return array(
 	'theme'=>'shadow_dancer',
 	// application components
 	'components'=>array(
+		'bootstrap'=>array(
+            'class'=>'application.extensions.bootstrap.components.Bootstrap',
+			'responsiveCss' => true,
+		),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName'=>false,
@@ -81,11 +85,11 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				/*
+				
 				array(
 					'class'=>'CWebLogRoute',
 				),
-				*/
+				
 			),
 		),
 	),

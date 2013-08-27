@@ -5,8 +5,8 @@
 
 <div class="view">
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_rol_formulario_privilegio')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id_rol_formulario_privilegio), array('view', 'id'=>$data->id_rol_formulario_privilegio)); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_rol_formulario')); ?>:</b>
+	<?php echo CHtml::link(CHtml::encode($data->id_rol_formulario), array('view', 'id'=>$data->id_rol_formulario)); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_formulario')); ?>:</b>

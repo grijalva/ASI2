@@ -2,6 +2,8 @@
 /* @var $this RolFormularioController */
 /* @var $model RolFormulario */
 /* @var $form CActiveForm */
+		$criteria=new CDbCriteria;
+		$criteria->condition='id_formulario <> 1';
 ?>
 
 <div class="form">
@@ -11,23 +13,22 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Campos con <span class="required">*</span> son requeridos</p>
+	<p class="note">Todos los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_rol'); ?>
-		<?php echo $form->dropDownList($model, 'id_rol',CHtml::listData(Rol::model()->findAll(), 'id_rol', 'nombre')); ?>
+		<?php echo $form->dropDownList($model, 'id_rol',array(CHtml::listData(Rol::model()->findAll(), 'id_rol', 'nombre'))); ?>
 		<?php echo $form->error($model,'id_rol'); ?>
 	</div>
 
-	
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_formulario'); ?>
-		<?php echo $form->dropDownList($model, 'id_formulario',CHtml::listData(Formulario::model()->findAll(), 'id_formulario', 'nombre')); ?>
+		<?php echo $form->checkBoxList($model, 'id_formulario',CHtml::listData(Formulario::model()->findAll($criteria), 'id_formulario', 'nombre')); ?>
 		<?php echo $form->error($model,'id_formulario'); ?>
 	</div>
-
+	
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

@@ -3,16 +3,13 @@
 /* @var $model Formulario */
 
 $this->breadcrumbs=array(
-	'Formularios'=>array('index'),
-	'Create',
+	$this->module->id=>("/ASI2/".$this->module->id),
+    $model->tableName()=>("/ASI2/".$this->module->id."/".$model->tableName()),
+    $this->action->id,
 );
 
-$this->menu=array(
-	array('label'=>'List Formulario', 'url'=>array('index')),
-	array('label'=>'Manage Formulario', 'url'=>array('admin')),
-);
 ?>
 
-<h1>Create Formulario</h1>
+<h1>Crear Formulario</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

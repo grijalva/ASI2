@@ -122,9 +122,10 @@ class RolController extends Controller
 	 */
 	public function actionIndex()
 	{
+		$model = new Rol;
 		$dataProvider=new CActiveDataProvider('Rol');
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
+			'dataProvider'=>$dataProvider, 'model'=>$model,
 		));
 	}
 
@@ -154,7 +155,7 @@ class RolController extends Controller
 	{
 		$model=Rol::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
+			throw new CHttpException(404,'La pagina no existe o usted no tiene acceso a ella');
 		return $model;
 	}
 

@@ -122,9 +122,10 @@ class FormularioController extends Controller
 	 */
 	public function actionIndex()
 	{
+		$model=new Formulario;
 		$dataProvider=new CActiveDataProvider('Formulario');
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
+			'dataProvider'=>$dataProvider, 'model'=>$model
 		));
 	}
 
@@ -154,7 +155,7 @@ class FormularioController extends Controller
 	{
 		$model=Formulario::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
+			throw new CHttpException(404,'La pagina no existe o usted no tiene permisos para accesar a ella');
 		return $model;
 	}
 
