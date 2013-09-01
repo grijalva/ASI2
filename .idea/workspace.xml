@@ -2,57 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed58fce-7fb5-4079-99cb-8c27e02d1e59" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\.idea\frameworkRootSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\.idea\php.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\models\new  2.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\modules\admin\controllers\usuario\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\prueba.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\usuario\_form.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\usuario\_search.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\usuario\_view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\usuario\admin.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\usuario\create.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\usuario\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\usuario\update.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\views\usuario\view.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ASI2.iml" afterPath="$PROJECT_DIR$/.idea/ASI2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
+      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ASI2\protected\pruebaxD" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/gii-1.1.13/CrudCode.php" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.13/CrudCode.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/gii-1.1.13/FormCode.php" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.13/FormCode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/FormularioController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/FormularioController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/RolController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/RolController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/RolFormulario.php" afterPath="$PROJECT_DIR$/protected/models/RolFormulario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/RolFormularioController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/RolFormularioController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/UsuarioController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/UsuarioController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/formulario/_form.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/formulario/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rol/_form.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rol/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/_form.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/usuario/_form.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/usuario/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/_search.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/_view.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/formulario/admin.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/formulario/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rol/admin.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rol/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/admin.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/usuario/admin.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/usuario/admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/formulario/create.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/formulario/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rol/create.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rol/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/create.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/usuario/create.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/usuario/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/default/index.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/default/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/formulario/index.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/formulario/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rol/index.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rol/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/index.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/usuario/index.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/usuario/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/shadow_dancer/views/layouts/main.php" afterPath="$PROJECT_DIR$/themes/shadow_dancer/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/formulario/update.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/formulario/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rol/update.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rol/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/update.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/usuario/update.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/usuario/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rol/view.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rol/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/view.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/rolFormulario/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/usuario/view.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/usuario/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ASI2.iws" />
@@ -79,7 +33,7 @@
       <file leaf-file-name="view.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/formulario/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="2" selection-start="764" selection-end="764" vertical-scroll-proportion="0.5895954" vertical-offset="0" max-vertical-offset="646">
+            <state line="5" column="20" selection-start="117" selection-end="117" vertical-scroll-proportion="0.16314779" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -142,7 +96,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,102 +128,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASI2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASI2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASI2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASI2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASI2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASI2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8ed58fce-7fb5-4079-99cb-8c27e02d1e59" name="Default" comment="" />
       <created>1377056047298</created>
       <updated>1377056047298</updated>
     </task>
+    <task id="LOCAL-00001" summary="Prueba">
+      <created>1378013192125</created>
+      <updated>1378013192125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19242424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19242424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -292,11 +221,27 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/formulario/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/formulario/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="2" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/formulario/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="22" selection-start="251" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="646">
@@ -326,7 +271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/formulario/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="2" selection-start="764" selection-end="764" vertical-scroll-proportion="0.5895954" vertical-offset="0" max-vertical-offset="646">
+        <state line="5" column="20" selection-start="117" selection-end="117" vertical-scroll-proportion="0.16314779" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>

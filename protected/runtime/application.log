@@ -6318,3 +6318,84 @@ Stack trace:
 REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
 HTTP_REFERER=http://localhost/ASI2/
 ---
+2013/08/31 19:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rol/create
+---
+2013/08/31 19:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/08/31 19:49:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/formulario/create
+---
+2013/08/31 19:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/pedidos/requisicion/create
+---
+2013/08/31 19:51:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/pedidos/requisicion/
+---
+2013/08/31 19:52:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/pedidos/requisicion/envios
+---
+2013/08/31 19:53:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/bodega/reporte
+---
+2013/08/31 19:53:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/08/31 19:56:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/bodega/categoriaproducto
+---
