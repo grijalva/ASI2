@@ -10,6 +10,6 @@ $this->breadcrumbs=array(
 
 ?>
 
-<h1>Create Requisicion</h1>
+<h1>Crear Requisicion</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

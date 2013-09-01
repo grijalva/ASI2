@@ -8,10 +8,6 @@ $this->breadcrumbs=array(
     $this->action->id,
 );
 
-$this->menu=array(
-	array('label'=>'List RolFormulario', 'url'=>array('index')),
-	array('label'=>'Manage RolFormulario', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Crear Rol-Formulario</h1>

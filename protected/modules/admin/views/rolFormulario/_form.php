@@ -24,7 +24,7 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_formulario'); ?>
+		<?php echo $form->labelEx($model,'id_formulario'); ?><br>
 		<?php echo $form->checkBoxList($model, 'id_formulario',CHtml::listData(Formulario::model()->findAll($criteria), 'id_formulario', 'nombre')); ?>
 		<?php echo $form->error($model,'id_formulario'); ?>
 	</div>
@@ -36,3 +36,11 @@
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->
+<style>
+div.form input[type=checkbox] {
+	float:right;
+	margin:0px, 0px, 0x, 0x;
+	padding;0px;
+}
+
+</style>

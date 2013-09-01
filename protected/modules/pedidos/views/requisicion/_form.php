@@ -15,11 +15,6 @@
 
 	<?php echo $form->errorSummary($model); ?>
 		<div class="row">
-		Fecha:
-		<?php echo $form->dateField($model,'fecha'); ?>
-		<?php echo $form->error($model,'fecha'); ?>
-		</div>
-		<div class="row">
 		Estado:
 		<?php echo $form->textField($model,'estado',array('size'=>30,'maxlength'=>30)); ?>
 		<?php echo $form->error($model,'estado'); ?>
@@ -34,7 +29,6 @@
 		<?php //echo $form->error($model,'id_usuario'); ?>
 		
 		Agencia:
-		<?php echo $form->labelEx($model,'id_agencia'); ?>
 		<?php echo $form->dropDownList($model, 'id_agencia',array(CHtml::listData(Agencia::model()->findAll(), 'id_agencia', 'nombre'))); ?>
 		<?php echo $form->error($model,'id_agencia'); ?>
 	</div>

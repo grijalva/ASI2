@@ -55,6 +55,12 @@ class RequisicionController extends Controller
 			'model'=>$this->loadModel($id),
 		));
 	}
+	
+	public function actionEnvios(){
+	
+		$model = new Envio;
+		$this->render('envios', array('model'=>$model));
+	}
 
 	/**
 	 * Creates a new model.
@@ -70,6 +76,8 @@ class RequisicionController extends Controller
 		if(isset($_POST['Requisicion']))
 		{
 			$model->id_usuario=2;
+			$model->fecha = date("Y/m/d");
+			$model->estado = 'N';
 			$model->attributes=$_POST['Requisicion'];
 
 			if($model->save())

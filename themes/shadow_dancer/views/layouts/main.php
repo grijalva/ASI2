@@ -31,7 +31,7 @@
 		<div class="topnav_text"><a href='/ASI2'>Home</a> | <a href='#'>Logout</a> </div>
 	</div>
 	<div id="header">
-		<div id="logo"><a href="/ASI2"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"/></a><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo"><a href="/ASI2"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"/></a><h3 style="color:white;"><?php echo CHtml::encode(Yii::app()->name); ?><h3></div>
 	</div><!-- header -->
     <!--
 <?php /*$this->widget('application.extensions.mbmenu.MbMenu',array(

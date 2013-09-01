@@ -7,10 +7,6 @@ $this->breadcrumbs=array(
     $model->tableName(),
 );
 
-$this->menu=array(
-	array('label'=>'Create Requisicion', 'url'=>array('create')),
-	array('label'=>'Manage Requisicion', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Requisicions</h1>

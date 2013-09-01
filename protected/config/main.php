@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'GESTION DE DISTRIBUCION Y REGRISTRO DE INVENTARIO DE PAPELERIA Y SOLICITUDES WEB. SERVICIOS FINANCIEROS ENLACES S.A DE C.V.',
+	'name'=>'GESTION DE DISTRIBUCION Y REGISTRO DE INVENTARIO DE PAPELERIA Y SOLICITUDES WEB. SERVICIOS FINANCIEROS ENLACE S.A DE C.V.',
 	'language'=>'es_es',
 	// preloading 'log' component
 	'preload'=>array('log', 'bootstrap'),
@@ -27,6 +27,9 @@ return array(
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'1234',
+			'generatorPaths' => array(
+          'bootstrap.gii'
+		  ),
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
@@ -85,11 +88,11 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				
+				/*
 				array(
 					'class'=>'CWebLogRoute',
 				),
-				
+				*/
 			),
 		),
 	),
@@ -98,6 +101,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'edu7art@hotmail.com',
 	),
 );
