@@ -6399,3 +6399,1523 @@ Stack trace:
 REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
 HTTP_REFERER=http://localhost/ASI2/bodega/categoriaproducto
 ---
+2013/09/01 00:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/01 00:19:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/?start_debug=1&send_sess_end=1&debug_start_session=1&debug_session_id=12913&debug_port=10137&debug_host=192.168.175.1%2C127.0.0.1
+---
+2013/09/01 00:19:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/01 00:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/?start_debug=1&send_sess_end=1&debug_start_session=1&debug_session_id=13296&debug_port=10137&debug_host=192.168.175.1%2C127.0.0.1
+---
+2013/09/01 00:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario
+---
+2013/09/01 00:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/view/id/2
+---
+2013/09/01 00:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/?start_debug=1&send_sess_end=1&debug_start_session=1&debug_session_id=14334&debug_port=10137&debug_host=192.168.175.1%2C127.0.0.1
+---
+2013/09/01 00:20:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario
+---
+2013/09/14 16:56:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/14 16:57:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/14 17:08:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:12:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1. The SQL statement executed was: INSERT INTO `usuario` (`nombre_usuario`, `password`, `estado`, `id_empleado`, `id_rol`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\UsuarioController.php (96)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/14 17:12:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1. The SQL statement executed was: INSERT INTO `usuario` (`nombre_usuario`, `password`, `estado`, `id_empleado`, `id_rol`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\inetpub\wwwroot\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\inetpub\wwwroot\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\UsuarioController.php(96): CActiveRecord->save()
+#3 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/usuario/c...')
+#9 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ASI2/admin/usuario/create
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:13:50 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1. The SQL statement executed was: INSERT INTO `usuario` (`nombre_usuario`, `password`, `estado`, `id_empleado`, `id_rol`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\UsuarioController.php (96)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/14 17:13:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1. The SQL statement executed was: INSERT INTO `usuario` (`nombre_usuario`, `password`, `estado`, `id_empleado`, `id_rol`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\inetpub\wwwroot\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\inetpub\wwwroot\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\UsuarioController.php(96): CActiveRecord->save()
+#3 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/usuario/c...')
+#9 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ASI2/admin/usuario/create
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:14:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1. The SQL statement executed was: INSERT INTO `usuario` (`nombre_usuario`, `password`, `estado`, `id_empleado`, `id_rol`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\UsuarioController.php (96)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/14 17:14:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1. The SQL statement executed was: INSERT INTO `usuario` (`nombre_usuario`, `password`, `estado`, `id_empleado`, `id_rol`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\inetpub\wwwroot\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\inetpub\wwwroot\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\UsuarioController.php(96): CActiveRecord->save()
+#3 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/usuario/c...')
+#9 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ASI2/admin/usuario/create
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:14:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1. The SQL statement executed was: INSERT INTO `usuario` (`nombre_usuario`, `password`, `estado`, `id_empleado`, `id_rol`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\UsuarioController.php (96)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/14 17:14:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1. The SQL statement executed was: INSERT INTO `usuario` (`nombre_usuario`, `password`, `estado`, `id_empleado`, `id_rol`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\inetpub\wwwroot\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\inetpub\wwwroot\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\UsuarioController.php(96): CActiveRecord->save()
+#3 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/usuario/c...')
+#9 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ASI2/admin/usuario/create
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:16:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:16:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/view/id/3
+---
+2013/09/14 17:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/14 17:17:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/15 13:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 13:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/15 13:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rol/create
+---
+2013/09/15 14:24:34 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:420)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(67): CWebApplication->__get()
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (67)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/admin
+---
+2013/09/15 14:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La pagina no existe o usted no tiene acceso a ella' in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:175
+Stack trace:
+#0 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(130): RolFormularioController->loadModel('35')
+#1 [internal function]: RolFormularioController->actionDelete('35')
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RolFormularioController), Array)
+#3 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RolFormularioController), Object(ReflectionMethod), Array)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/rolformul...')
+#9 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ASI2/admin/rolformulario/delete/id/35?ajax=rol-formulario-grid
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/admin
+---
+2013/09/15 14:25:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'La pagina no existe o usted no tiene acceso a ella' in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:175
+Stack trace:
+#0 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(130): RolFormularioController->loadModel('37')
+#1 [internal function]: RolFormularioController->actionDelete('37')
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RolFormularioController), Array)
+#3 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RolFormularioController), Object(ReflectionMethod), Array)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/rolformul...')
+#9 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ASI2/admin/rolformulario/delete/id/37?ajax=rol-formulario-grid
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/admin
+---
+2013/09/15 14:25:38 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:420)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(67): CWebApplication->__get()
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (67)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:29:13 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:420)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(67): CWebApplication->__get()
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (67)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:31:05 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:420)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(67): CWebApplication->__get()
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (67)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:31:18 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:420)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(67): CWebApplication->__get()
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (67)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:31:40 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:420)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(67): CWebApplication->__get()
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (67)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:31:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 14:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 14:33:48 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:420)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(67): CWebApplication->__get()
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (67)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:35:19 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:420)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(67): CWebApplication->__get()
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (67)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:39:08 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:420)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(67): CWebApplication->__get()
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (67)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:39:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 14:40:04 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:75)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (75)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:42:18 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:76)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (76)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 14:45:52 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:77)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (77)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:51:16 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:76)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (76)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:52:22 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:78)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (78)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:53:09 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:76)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (76)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:54:45 [error] [php] Undefined property: stdClass::$nombre (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:78)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (78)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:55:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolformulario/view/id/50
+---
+2013/09/15 14:56:49 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:77)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (77)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 14:58:18 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:77)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (77)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 15:13:11 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:76)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (76)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 15:14:00 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:76)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (76)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 15:15:31 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:79)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (79)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 15:16:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolformulario/view/id/58
+---
+2013/09/15 15:16:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/admin
+---
+2013/09/15 15:19:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 15:19:51 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php:79)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): RolFormularioController->runAction()
+#1 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): RolFormularioController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): RolFormularioController->run()
+#3 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+in C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php (79)
+in C:\inetpub\wwwroot\ASI2\index.php (13)
+2013/09/15 15:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolformulario/view/id/62
+---
+2013/09/15 15:21:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 15:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolformulario/view/id/68
+---
+2013/09/15 15:34:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/formulario
+---
+2013/09/15 15:56:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 15:57:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:02:03 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "checkAcces".' in C:\inetpub\wwwroot\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php(31): CComponent->__call('checkAcces', Array)
+#1 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php(31): CWebUser->checkAcces('@')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#3 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#5 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#6 C:\inetpub\wwwroot\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#7 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php(7): CBaseController->endContent()
+#10 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#11 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#12 C:\inetpub\wwwroot\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#13 C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/ASI2/
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:02:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:02:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:03:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/site/login
+---
+2013/09/15 16:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/site/login
+---
+2013/09/15 16:05:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/site/login
+---
+2013/09/15 16:05:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/site/login
+---
+2013/09/15 16:05:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:08:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:08:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:09:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:10:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 16:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 17:52:03 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.errorCore" is not defined.' in C:\inetpub\wwwroot\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\wwwroot\ASI2\protected\components\UserIdentity.php(29): CComponent->__set('errorCore', 0)
+#1 C:\inetpub\wwwroot\ASI2\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\inetpub\wwwroot\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\inetpub\wwwroot\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\inetpub\wwwroot\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/ASI2/site/login
+HTTP_REFERER=http://localhost/ASI2/site/login
+---
+2013/09/15 17:52:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 17:53:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 18:04:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 18:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/15 18:05:07 [error] [exception.CException] exception 'CException' with message 'Unknown authorization item "admin".' in C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:179
+Stack trace:
+#0 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\UsuarioController.php(102): CPhpAuthManager->assign('admin', 'edu7art')
+#1 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#2 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#5 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/usuario/c...')
+#7 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/ASI2/admin/usuario/create
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/15 18:05:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rol/create
+---
+2013/09/15 18:05:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 18:06:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolformulario/view/id/99
+---
+2013/09/15 18:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/15 18:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/view/id/5
+---
+2013/09/15 18:07:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/15 18:12:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/usuario/s...')
+#3 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ASI2/admin/usuario/site/logout
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/create
+---
+2013/09/15 18:12:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/usuario/site/logout
+---
+2013/09/15 18:12:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 18:13:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 18:13:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/logou...')
+#3 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ASI2/site/site/logout
+HTTP_REFERER=http://localhost/ASI2/site/login
+---
+2013/09/15 18:13:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/site/site/logout
+---
+2013/09/15 18:13:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\inetpub\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/site/...')
+#3 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ASI2/site/site/site/logout
+HTTP_REFERER=http://localhost/ASI2/site/site/logout
+---
+2013/09/15 18:13:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/site/site/site/logout
+---
+2013/09/15 18:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 18:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 23:13:12 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "getState".' in C:\inetpub\wwwroot\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php(45): CComponent->__call('getState', Array)
+#1 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php(45): CWebApplication->getState('rol')
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#3 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#5 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#6 C:\inetpub\wwwroot\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#7 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php(7): CBaseController->endContent()
+#10 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#11 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#12 C:\inetpub\wwwroot\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#13 C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/ASI2/
+HTTP_REFERER=http://localhost/ASI2/site/login
+---
+2013/09/15 23:15:55 [error] [php] Trying to get property of non-object (C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php:50)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\inetpub\wwwroot\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php(7): SiteController->endContent()
+#6 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require()
+#7 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\inetpub\wwwroot\yii\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php(32): SiteController->render()
+#10 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/
+in C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php (50)
+in C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php (7)
+in C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php (32)
+2013/09/15 23:16:39 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php:50)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\inetpub\wwwroot\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php(7): SiteController->endContent()
+#6 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require()
+#7 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\inetpub\wwwroot\yii\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php(32): SiteController->render()
+#10 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/
+in C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php (50)
+in C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php (7)
+in C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php (32)
+2013/09/15 23:17:15 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php:51)
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\inetpub\wwwroot\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php(7): SiteController->endContent()
+#6 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require()
+#7 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\inetpub\wwwroot\yii\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php(32): SiteController->render()
+#10 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\inetpub\wwwroot\ASI2\index.php(13): CWebApplication->run()
+REQUEST_URI=/ASI2/
+in C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php (51)
+in C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php (7)
+in C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php (32)
+2013/09/15 23:17:46 [error] [exception.CException] exception 'CException' with message 'Menu is not set or it's empty' in C:\inetpub\wwwroot\ASI2\protected\extensions\menu\SMenu.php:122
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(173): SMenu->run()
+#1 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php(111): CBaseController->widget('application.ext...', Array)
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#3 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#5 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#6 C:\inetpub\wwwroot\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#7 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php(7): CBaseController->endContent()
+#10 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#11 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#12 C:\inetpub\wwwroot\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#13 C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/ASI2/
+HTTP_REFERER=http://localhost/ASI2/site/login
+---
+2013/09/15 23:17:56 [error] [exception.CException] exception 'CException' with message 'Menu is not set or it's empty' in C:\inetpub\wwwroot\ASI2\protected\extensions\menu\SMenu.php:122
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(173): SMenu->run()
+#1 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\main.php(111): CBaseController->widget('application.ext...', Array)
+#2 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#3 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#5 C:\inetpub\wwwroot\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#6 C:\inetpub\wwwroot\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#7 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\inetpub\wwwroot\ASI2\themes\shadow_dancer\views\layouts\column1.php(7): CBaseController->endContent()
+#10 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(126): require('C:\inetpub\wwwr...')
+#11 C:\inetpub\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\wwwr...', Array, true)
+#12 C:\inetpub\wwwroot\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\inetpub\wwwr...', Array, true)
+#13 C:\inetpub\wwwroot\ASI2\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#14 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#19 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/ASI2/site/login
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 23:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/site/login
+---
+2013/09/15 23:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 23:20:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 23:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/admin
+---
+2013/09/15 23:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/admin
+---
+2013/09/15 23:21:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/admin
+---
+2013/09/15 23:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 23:23:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/bodega/reporte
+---
+2013/09/15 23:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/bodega/ajuste/create
+---
+2013/09/15 23:24:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/formulario/create
+---
+2013/09/15 23:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/formulario/view/id/46
+---
+2013/09/15 23:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 23:25:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 23:25:48 [error] [exception.CException] exception 'CException' with message 'Unable to add an item whose name is the same as an existing item.' in C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:289
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\auth\CAuthManager.php(72): CPhpAuthManager->createAuthItem('admin', 2, 'administrador', NULL, NULL)
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(78): CAuthManager->createRole('admin', 'administrador')
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/rolFormul...')
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 23:26:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 23:26:50 [error] [exception.CException] exception 'CException' with message 'Unable to add an item whose name is the same as an existing item.' in C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:289
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\auth\CAuthManager.php(72): CPhpAuthManager->createAuthItem('admin', 2, 'administrador', NULL, NULL)
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(78): CAuthManager->createRole('admin', 'administrador')
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/rolFormul...')
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 23:28:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolformulario/view/id/130
+---
+2013/09/15 23:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 23:34:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---
+2013/09/15 23:35:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 23:35:40 [error] [exception.CException] exception 'CException' with message 'Unable to add an item whose name is the same as an existing item.' in C:\inetpub\wwwroot\yii\framework\web\auth\CPhpAuthManager.php:289
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\auth\CAuthManager.php(72): CPhpAuthManager->createAuthItem('admin', 2, 'administrador', NULL, NULL)
+#1 C:\inetpub\wwwroot\ASI2\protected\modules\admin\controllers\RolFormularioController.php(78): CAuthManager->createRole('admin', 'administrador')
+#2 C:\inetpub\wwwroot\yii\framework\web\actions\CInlineAction.php(49): RolFormularioController->actionCreate()
+#3 C:\inetpub\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\inetpub\wwwroot\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\inetpub\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#6 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/rolFormul...')
+#8 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/ASI2/admin/rolFormulario/create
+HTTP_REFERER=http://localhost/ASI2/admin/rolFormulario/create
+---
+2013/09/15 23:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b850039f/menu_default.css".' in C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/b850039f...')
+#1 C:\inetpub\wwwroot\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\ASI2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ASI2/assets/b850039f/menu_default.css
+HTTP_REFERER=http://localhost/ASI2/
+---

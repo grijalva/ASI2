@@ -12,14 +12,29 @@ class UsuarioController extends Controller
 	 * @return array action filters
 	 */
 	public function filters()
-	{
-	/*
+	{/*
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
-		); */
+		);*/
 	}
 
+            function blowfishSalt($cost = 13)
+    {
+        if (!is_numeric($cost) || $cost < 4 || $cost > 31) {
+            throw new Exception("cost parameter must be between 4 and 31");
+        }
+        $rand = array();
+        for ($i = 0; $i < 8; $i += 1) {
+            $rand[] = pack('S', mt_rand(0, 0xffff));
+        }
+        $rand[] = substr(microtime(), 2, 6);
+        $rand = sha1(implode('', $rand), true);
+        $salt = '$2a$' . sprintf('%02d', $cost) . '$';
+        $salt .= strtr(substr(base64_encode($rand), 0, 22), array('+' => '.'));
+        return $salt;
+    }
+        
 	/**
 	 * Specifies the access control rules.
 	 * This method is used by the 'accessControl' filter.
@@ -61,17 +76,31 @@ class UsuarioController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
+       
+       
+
+        public function actionCreate()
 	{
 		$model=new Usuario;
-
+        $auth=Yii::app()->authManager;
+                
+                
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Usuario']))
 		{
+            $criteria=new CDbCriteria;
+            $criteria->condition='id_rol='+$model->id_rol;
+            $modelRol = Rol::model()->find($criteria);
+
 			$model->attributes=$_POST['Usuario'];
+                        $model->password = crypt($model->password, self::blowfishSalt());
+                        $model->password_repeat = crypt($model->password_repeat,$model->password);
+                      
 			if($model->save())
+                $auth->assign($modelRol->nombre, $model->nombre_usuario);
+                $auth->save();
 				$this->redirect(array('view','id'=>$model->id_usuario));
 		}
 
@@ -88,14 +117,20 @@ class UsuarioController extends Controller
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
-
+        $auth=Yii::app()->authManager;
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Usuario']))
 		{
+            $mod= Usuario::model()->findByPk($id);
+            $modRol = Rol::model()->findByPk($mod->id_rol);
+            $auth->revoke($modRol->nombre, $mod->nombre);
 			$model->attributes=$_POST['Usuario'];
 			if($model->save())
+                $modelRol=Rol::model()->findByPk($model->id_rol);
+                $auth->assign($modelRol->nombre, $model->nombre_usuario);
+                $auth->save();
 				$this->redirect(array('view','id'=>$model->id_usuario));
 		}
 
@@ -111,6 +146,11 @@ class UsuarioController extends Controller
 	 */
 	public function actionDelete($id)
 	{
+        $auth=Yii::app()->authManager;
+        $model = Usuario::model()->findByPk($id);
+        $model2 = Rol::model()->findByPk($model->id_rol);
+        $auth->revoke($model2->nombre, $model->nombre);
+        $auth->save();
 		$this->loadModel($id)->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
@@ -123,10 +163,9 @@ class UsuarioController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model= new Usuario;
 		$dataProvider=new CActiveDataProvider('Usuario');
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider, 'model'=>$model,
+			'dataProvider'=>$dataProvider,
 		));
 	}
 
@@ -156,7 +195,7 @@ class UsuarioController extends Controller
 	{
 		$model=Usuario::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'La pagina no existe o usted no tiene acceso a ella');
+			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
 	}
 

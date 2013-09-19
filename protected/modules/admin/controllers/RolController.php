@@ -63,7 +63,6 @@ class RolController extends Controller
 	public function actionCreate()
 	{
 		$model=new Rol;
-
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
@@ -87,7 +86,7 @@ class RolController extends Controller
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
-
+        $auth=Yii::app()->authManager;
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
@@ -110,7 +109,11 @@ class RolController extends Controller
 	 */
 	public function actionDelete($id)
 	{
+        $auth=Yii::app()->authManager;
+        $model=Rol::model()->findByPk($id);
+        $auth->removeAuthItem($model->nombre);
 		$this->loadModel($id)->delete();
+        $auth->save();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))

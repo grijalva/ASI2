@@ -64,23 +64,40 @@ class RolFormularioController extends Controller
 	public function actionCreate()
 	{
 		$model=new RolFormulario;
-		
+        $auth=Yii::app()->authManager;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['RolFormulario']))
 		{
+            $criteria=new CDbCriteria;
+            $criteria->condition='id_rol='+$model->id_rol;
+            $modelRol = Rol::model()->find($criteria);
+
+            if($auth->getAuthItem($modelRol->nombre)==null){
+                $role = $auth->createRole($modelRol->nombre, $modelRol->descripcion);
+            }else{
+                $role = $auth->getAuthItem($modelRol->nombre);
+            }
+
 			$model->attributes=$_POST['RolFormulario'];
-			foreach($model->id_formulario as $id_form){
-			$modelo=new RolFormulario;
-			$modelo->id_formulario = $id_form;
-			$modelo->id_rol = $model->id_rol;
-				if($modelo->save()){
-					echo "hola".$id_form;
-				}
-			}
-				$this->redirect(array('view','id'=>$modelo->id_rol_formulario));
+
+                foreach($model->id_formulario as $id_form){
+
+                    $modelo=new RolFormulario;
+                    $modelFormulario = Formulario::model()->findByPk($id_form);
+                    if($auth->getAuthItem($modelFormulario->nombre)==null){
+                    $auth->createOperation($modelFormulario->nombre, $modelFormulario->descripcion);
+                    }
+                    $modelo->id_formulario = $id_form;
+                    $modelo->id_rol = $model->id_rol;
+                        if($modelo->save()){
+                            $role->addChild($modelFormulario->nombre);
+                            $auth->save();
+                        }
+                }
+			$this->redirect(array('view','id'=>$modelo->id_rol_formulario));
 		}
 
 		$this->render('create',array(
@@ -119,6 +136,8 @@ class RolFormularioController extends Controller
 	 */
 	public function actionDelete($id)
 	{
+        $auth=Yii::app()->authManager;
+        $auth->removeAuthItem();
 		$this->loadModel($id)->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser

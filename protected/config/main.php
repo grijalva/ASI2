@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'GESTION DE DISTRIBUCION Y REGISTRO DE INVENTARIO DE PAPELERIA Y SOLICITUDES WEB. SERVICIOS FINANCIEROS ENLACE S.A DE C.V.',
+	'name'=>'GESTION DE DISTRIBUCION, REGISTRO DE INVENTARIO Y SOLICITUDES EN WEB.',
 	'language'=>'es_es',
 	// preloading 'log' component
 	'preload'=>array('log', 'bootstrap'),
@@ -42,6 +42,7 @@ return array(
             'class'=>'application.extensions.bootstrap.components.Bootstrap',
 			'responsiveCss' => true,
 		),
+
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName'=>false,
@@ -51,6 +52,8 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+
+		
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(
@@ -75,6 +78,9 @@ return array(
 			'password' => '1812',
 			'charset' => 'utf8',
 		),
+        'authManager'=>array(
+            'class'=>'CPhpAuthManager',
+        ),
 
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors

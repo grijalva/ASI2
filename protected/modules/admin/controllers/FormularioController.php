@@ -110,13 +110,16 @@ class FormularioController extends Controller
 	 */
 	public function actionDelete($id)
 	{
+        $auth=Yii::app()->authManager;
+        $model=Formulario::model()->findByPk($id);
+        $auth->removeAuthItem($model->nombre);
 		$this->loadModel($id)->delete();
+        $model->save();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
-
 	/**
 	 * Lists all models.
 	 */

@@ -46,14 +46,20 @@ class Usuario extends CActiveRecord
 	/**
 	 * @return array validation rules for model attributes.
 	 */
+        
+        public $password_repeat;
+        
 	public function rules()
 	{
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre_usuario, password, estado, id_empleado, id_rol', 'required'),
+			array('nombre_usuario, password, password_repeat, estado, id_empleado, id_rol', 'required'),
 			array('id_empleado, id_rol', 'numerical', 'integerOnly'=>true),
-			array('nombre_usuario, password', 'length', 'max'=>50),
+			array('nombre_usuario, password', 'length', 'max'=>100),
+                        array('nombre_usuario', 'unique'),
+                        array('password', 'compare',),
+                        array('password_repeat', 'safe'),
 			array('estado', 'length', 'max'=>1),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -91,6 +97,7 @@ class Usuario extends CActiveRecord
 			'id_usuario' => 'Id Usuario',
 			'nombre_usuario' => 'Nombre Usuario',
 			'password' => 'Password',
+            'password_repeat' => 'Repetir Password',
 			'estado' => 'Estado',
 			'id_empleado' => 'Id Empleado',
 			'id_rol' => 'Id Rol',
@@ -118,5 +125,36 @@ class Usuario extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+	
+	public function authenticate($attribute,$params)
+	{
+		if(!$this->hasErrors())
+		{
+			$this->_identity=new UserIdentity($this->nombre_usuario,$this->password);
+			if(!$this->_identity->authenticate())
+				$this->addError('password','Incorrect username or password.');
+		}
+	}
+
+	/**
+	 * Logs in the user using the given username and password in the model.
+	 * @return boolean whether login is successful
+	 */
+	public function login()
+	{
+		if($this->_identity===null)
+		{
+			$this->_identity=new UserIdentity($this->nombre_usuario,$this->password);
+			$this->_identity->authenticate();
+		}
+		if($this->_identity->errorCode===UserIdentity::ERROR_NONE)
+		{
+			$duration=$this->rememberMe ? 3600*24*30 : 0; // 30 days
+			Yii::app()->user->login($this->_identity,$duration);
+			return true;
+		}
+		else
+			return false;
 	}
 }
