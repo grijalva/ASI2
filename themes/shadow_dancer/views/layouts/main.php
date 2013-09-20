@@ -29,7 +29,7 @@
 <div class="container" id="page">
 	<div id="topnav">
         <?php if (Yii::app()->user->getId() !== null){ ?>
-		    <div class="topnav_text"><a href='/ASI2'>Home</a> | <a href='/ASI2/site/logout'>Logout</a> </div>
+		    <div class="topnav_text">,<a>Bienvenido <?php echo Yii::app()->user->getState('nombre'); ?></a> | <a href='/ASI2'>Home</a> | <a href='/ASI2/site/logout'>Logout</a> </div>
         <?php }else{ ?>
             <div class="topnav_text"><a href='/ASI2'>Home</a> | <a href='/ASI2/site/login'>Login</a> </div>
         <?php } ?>
@@ -41,73 +41,97 @@
 	<div id="mainmenu">
 		<?php
         if (Yii::app()->user->getId() !== null){
+
             $rol = Yii::app()->user->getState('rol');
             $crit = new CDbCriteria;
             $crit->condition='id_rol ='.$rol;
             $rolForm = RolFormulario::model()->findAll($crit);
-            $forms = array();
-            $formAct = new RolFormulario;
-            foreach($rolForm as $formAct){
-                $forms[]= $formAct->id_formulario;
-            }
-            $criteria=new CDbCriteria;
-            $criteria->condition='padre_fk=1 and id_formulario <> 1';
-            $criteria->addInCondition('id_formulario', $forms);
-            $formulario = new Formulario;
-            $formularios = Formulario::model()->findAll($criteria);
-            $form1 = new Formulario;
-            $form2 = new Formulario;
-            $form3 = new Formulario;
-            $form4 = new Formulario;
-
-            $menu = array();
-            $menu1 = array();
-            $menu2 = array();
-
-            foreach($formularios as $formulario){
-                $menu1['url'] = array('route'=>($formulario->direccion));
-                $menu1['label'] = $formulario->nombre;
+            if($rolForm!==null){
+                $forms = array();
+                $formAct = new RolFormulario;
+                foreach($rolForm as $formAct){
+                    $forms[]= $formAct->id_formulario;
+                }
                 $criteria=new CDbCriteria;
-                $criteria->condition='padre_fk=:id_formulario';
-                $criteria->params=array(':id_formulario'=>($formulario->id_formulario));
+                $criteria->condition='padre_fk=1 and id_formulario <> 1';
                 $criteria->addInCondition('id_formulario', $forms);
-                $form1=Formulario::model()->findAll($criteria);
-                if($form1!==null || !empty($form1)){
-                    foreach($form1 as $form2){
-                        $menu2['url'] = array('route'=>($form2->direccion));
-                        $menu2['label'] = $form2->nombre;
+                $formulario = new Formulario;
+                $formularios = Formulario::model()->findAll($criteria);
+
+                if($formularios !== null || empty($formularios)){
+                    $form1 = new Formulario;
+                    $form2 = new Formulario;
+                    $form3 = new Formulario;
+                    $form4 = new Formulario;
+
+                    $menu = array();
+                    $menu1 = array();
+                    $menu2 = array();
+                    $vacio=0;
+
+                    foreach($formularios as $formulario){
+                        $menu1['url'] = array('route'=>($formulario->direccion));
+                        $menu1['label'] = $formulario->nombre;
                         $criteria=new CDbCriteria;
                         $criteria->condition='padre_fk=:id_formulario';
-                        $criteria->params=array(':id_formulario'=>($form2->id_formulario));
+                        $criteria->params=array(':id_formulario'=>($formulario->id_formulario));
                         $criteria->addInCondition('id_formulario', $forms);
-                        $form3=Formulario::model()->findAll($criteria);
-                        if($form3!==null || !empty($form3)){
-                            foreach($form3 as $form4){
-                                $menu3['url'] = array('route'=>($form4->direccion));
-                                $menu3['label'] = $form4->nombre;
-                                $menu2[]=$menu3;
-                                $menu3= array();
+                        $form1=Formulario::model()->findAll($criteria);
+                        if($form1!==null and !empty($form1)){
+                            foreach($form1 as $form2){
+                                $menu2['url'] = array('route'=>($form2->direccion));
+                                $menu2['label'] = $form2->nombre;
+                                $criteria=new CDbCriteria;
+                                $criteria->condition='padre_fk=:id_formulario';
+                                $criteria->params=array(':id_formulario'=>($form2->id_formulario));
+                                $criteria->addInCondition('id_formulario', $forms);
+                                $form3=Formulario::model()->findAll($criteria);
+                                if($form3!==null || !empty($form3)){
+                                    foreach($form3 as $form4){
+                                        $menu3['url'] = array('route'=>($form4->direccion));
+                                        $menu3['label'] = $form4->nombre;
+                                        $menu2[]=$menu3;
+                                        $menu3= array();
+                                    }
+
+                                }
+                                $menu1[]=$menu2;
+                                $menu2= array();
                             }
 
                         }
-                        $menu1[]=$menu2;
-                        $menu2= array();
-                    }
+                        $menu[]=$menu1;
+                        $menu1= array();
+							
+					}	
+					
+					if(!empty($menu) and $menu!==null){
 
+						$menu['stylesheet'] = "menu_blue.css";
+						$menu['menuID'] = "myMenu";
+						$menu['delay'] = 3;
+						$vacio=1;
+					}
+						
+					try{
+					
+						if($vacio=1){
+							
+								$this->widget('application.extensions.menu.SMenu',
+									array(
+										'menu'=>$menu
+									)
+								);
+						}else{
+						
+							echo "<h4>".Yii::app()->user->getState('nombre'). ", usted no tiene ningun permiso configurado</h4>";
+							
+						}
+					}catch(Exception $ex){
+						echo "<h4>".Yii::app()->user->getState('nombre'). ", usted no tiene ningun permiso configurado</h4>";
+					}
                 }
-                $menu[]=$menu1;
-                $menu1= array();
-
-
-                $menu['stylesheet'] = "menu_blue.css";
-                $menu['menuID'] = "myMenu";
-                $menu['delay'] = 3;
             }
-            $this->widget('application.extensions.menu.SMenu',
-                array(
-                    'menu'=>$menu
-                )
-            );
         }
 		?>
 	</div> <!--mainmenu -->
