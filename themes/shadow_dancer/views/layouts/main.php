@@ -29,13 +29,13 @@
 <div class="container" id="page">
 	<div id="topnav">
         <?php if (Yii::app()->user->getId() !== null){ ?>
-		    <div class="topnav_text">,<a>Bienvenido <?php echo Yii::app()->user->getState('nombre'); ?></a> | <a href='/ASI2'>Home</a> | <a href='/ASI2/site/logout'>Logout</a> </div>
+		    <div class="topnav_text">,<a>Bienvenido <?php echo Yii::app()->user->getState('nombre'); ?></a> | <a href='<?php echo Yii::app()->baseUrl; ?>'>Home</a> | <a href='<?php echo Yii::app()->baseUrl; ?>/site/logout'>Logout</a> </div>
         <?php }else{ ?>
-            <div class="topnav_text"><a href='/ASI2'>Home</a> | <a href='/ASI2/site/login'>Login</a> </div>
+            <div class="topnav_text"><a href='<?php echo Yii::app()->baseUrl; ?>'>Home</a> | <a href='<?php echo Yii::app()->baseUrl; ?>/site/login'>Login</a> </div>
         <?php } ?>
 	</div>
 	<div id="header">
-		<div id="logo"><a href="/ASI2"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"/></a><h3 style="color:white;"><?php echo CHtml::encode(Yii::app()->name); ?><h3></div>
+		<div id="logo"><a href="<?php echo Yii::app()->baseUrl; ?>"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.jpg" width="243px" height="202px"/></a><h3 style="color:white;"><?php echo CHtml::encode(Yii::app()->name); ?><h3></div>
 	</div><!-- header -->
 
 	<div id="mainmenu">

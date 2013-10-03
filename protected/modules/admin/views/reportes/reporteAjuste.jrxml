@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reporteAjuste" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="acf5aeff-a2ea-4093-b0fc-f034f30748d7">
+	<property name="ireport.zoom" value="0.75"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<parameter name="fecha_inicio" class="java.util.Date"/>
+	<parameter name="fecha_fin" class="java.util.Date"/>
+	<parameter name="id_agencia" class="java.lang.Integer"/>
+	<queryString>
+		<![CDATA[SELECT
+     ajuste.`fecha` AS ajuste_fecha,
+     ajuste.`tipo_ajuste` AS ajuste_tipo_ajuste,
+     ajuste.`descripcion` AS ajuste_descripcion,
+     ajuste.`id_usuario` AS ajuste_id_usuario,
+     detalle_ajuste.`cantidad` AS detalle_ajuste_cantidad,
+     producto.`nombre` AS producto_nombre,
+     usuario.`nombre_usuario` AS usuario_nombre_usuario,
+     empleado.`nombres` AS empleado_nombres,
+     empleado.`apellidos` AS empleado_apellidos
+FROM
+     `ajuste` ajuste INNER JOIN `detalle_ajuste` detalle_ajuste ON ajuste.`id_ajuste` = detalle_ajuste.`id_ajuste`
+     INNER JOIN `lote` lote ON detalle_ajuste.`id_lote` = lote.`id_lote`
+     INNER JOIN `producto` producto ON lote.`id_producto` = producto.`id_producto`
+     INNER JOIN `inventario` inventario ON producto.`id_producto` = inventario.`id_producto`
+     INNER JOIN `usuario` usuario ON ajuste.`id_usuario` = usuario.`id_usuario`
+     INNER JOIN `empleado` empleado ON usuario.`id_empleado` = empleado.`id_empleado`
+WHERE (ajuste.fecha between $P{fecha_inicio} and $P{fecha_fin}) and (inventario.id_agencia = $P{id_agencia})]]>
+	</queryString>
+	<field name="ajuste_fecha" class="java.sql.Date"/>
+	<field name="ajuste_tipo_ajuste" class="java.lang.String"/>
+	<field name="ajuste_descripcion" class="java.lang.String"/>
+	<field name="ajuste_id_usuario" class="java.lang.Integer"/>
+	<field name="detalle_ajuste_cantidad" class="java.lang.Double"/>
+	<field name="producto_nombre" class="java.lang.String"/>
+	<field name="usuario_nombre_usuario" class="java.lang.String"/>
+	<field name="empleado_nombres" class="java.lang.String"/>
+	<field name="empleado_apellidos" class="java.lang.String"/>
+	<group name="ajuste_fecha">
+		<groupExpression><![CDATA[$F{ajuste_fecha}]]></groupExpression>
+		<groupHeader>
+			<band height="40">
+				<textField>
+					<reportElement uuid="6e6a6d13-fa8f-457a-bb53-60d9bc0a57b5" style="SubTitle" x="47" y="13" width="506" height="24" forecolor="#333333"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{ajuste_fecha}]]></textFieldExpression>
+				</textField>
+				<rectangle>
+					<reportElement uuid="1ebb9741-8472-44d7-b7d1-533293eb2800" mode="Opaque" x="0" y="13" width="36" height="24" forecolor="#CCCCCC" backcolor="#CCCCCC"/>
+				</rectangle>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="6"/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<image>
+				<reportElement uuid="67c0c91a-a592-4285-bed4-40ab377dd074" x="-20" y="0" width="595" height="64"/>
+				<imageExpression><![CDATA["wood.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="321c83f3-fdb2-4689-bc43-3144c0b856bc" style="Title" x="0" y="5" width="263" height="33"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Wood Title]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="086b3cfb-6e8e-47b8-84ae-966c9bb2175c" style="SubTitle" x="63" y="39" width="200" height="22" forecolor="#FFFFFF"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[Wood SubTitle]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<line>
+				<reportElement uuid="cfeff0c0-f0f5-43c0-9f1f-b8a768a5a746" positionType="FixRelativeToBottom" x="0" y="35" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement uuid="fdf57d03-2baf-4436-9588-af0cc12ae1c3" style="Column header" x="0" y="19" width="79" height="15"/>
+				<textElement/>
+				<text><![CDATA[ajuste_tipo_ajuste]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="de69c18e-09ec-4829-9aaa-a71cafc58913" style="Column header" x="79" y="19" width="79" height="15"/>
+				<textElement/>
+				<text><![CDATA[ajuste_descripcion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="df9ce3ff-242e-4cf2-8a27-83fefc365324" style="Column header" x="158" y="19" width="79" height="15"/>
+				<textElement/>
+				<text><![CDATA[detalle_ajuste_cantidad]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="30520f96-43f4-4684-a57b-c214a794c681" style="Column header" x="237" y="19" width="79" height="15"/>
+				<textElement/>
+				<text><![CDATA[producto_nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="dfb6ba8f-9e16-432f-a53b-b2cb5f0eba01" style="Column header" x="316" y="19" width="79" height="15"/>
+				<textElement/>
+				<text><![CDATA[usuario_nombre_usuario]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="93b4a5c9-8389-47d0-81e9-a20e63fa84c7" style="Column header" x="395" y="19" width="79" height="15"/>
+				<textElement/>
+				<text><![CDATA[empleado_nombres]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="3a8691c3-fd62-42a4-8218-9f1dc1c18af0" style="Column header" x="474" y="19" width="79" height="15"/>
+				<textElement/>
+				<text><![CDATA[empleado_apellidos]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<line>
+				<reportElement uuid="3255c6c3-edbb-4622-91aa-2a15da1a5f91" positionType="FixRelativeToBottom" x="0" y="15" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement uuid="1708323e-e166-42e4-8b04-4a16a64cafe4" style="Detail" x="0" y="0" width="79" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ajuste_tipo_ajuste}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="6c4fc854-8561-4978-804d-5c3114660c43" style="Detail" x="79" y="0" width="79" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ajuste_descripcion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="98151d93-ca5f-4a27-bb5b-caf6643a94ca" style="Detail" x="158" y="0" width="79" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{detalle_ajuste_cantidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="326f1a13-640a-4754-aef1-fc79a461aac0" style="Detail" x="237" y="0" width="79" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{producto_nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="71cbb8d9-04de-4ea8-a323-c044bcc5c164" style="Detail" x="316" y="0" width="79" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{usuario_nombre_usuario}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d4174b2e-7e66-4be0-acf6-3e91740fbde3" style="Detail" x="395" y="0" width="79" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{empleado_nombres}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4efe443e-2263-4279-87f4-fae78248b90b" style="Detail" x="474" y="0" width="79" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{empleado_apellidos}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<line>
+				<reportElement uuid="8d17f9cc-6028-40b6-b942-b9df0e5dbf4c" positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement uuid="8fd37d1a-2608-4b90-a527-9cfad192101d" style="Column header" x="433" y="0" width="80" height="20"/>
+				<textElement textAlignment="Right">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="b309a26a-66e3-480d-abb3-c377d1a968e0" style="Column header" x="513" y="0" width="40" height="20"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement uuid="ee67b2c8-97cb-443b-aa6e-0d72bbf1e9ed" style="Column header" x="0" y="0" width="197" height="20"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

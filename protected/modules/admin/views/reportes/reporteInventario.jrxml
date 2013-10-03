@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reporteInventario" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="08813fb7-8a47-4461-b0d9-e2e9a52243b7">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<parameter name="id_agencia" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+     inventario.`codigo_producto` AS inventario_codigo_producto,
+     inventario.`stock_max` AS inventario_stock_max,
+     inventario.`stock` AS inventario_stock,
+     inventario.`stock_min` AS inventario_stock_min,
+     inventario.`estado` AS inventario_estado,
+     ubicacion.`nivel` AS ubicacion_nivel,
+     ubicacion.`sector` AS ubicacion_sector,
+     estante.`nombre` AS estante_nombre,
+     estante.`ubicacion` AS estante_ubicacion,
+     unidad_de_medida.`nombre` AS unidad_de_medida_nombre,
+     producto.`nombre` AS producto_nombre,
+     categoria_producto.`nombre` AS categoria_producto_nombre,
+     proveedor.`nombre` AS proveedor_nombre,
+     lote.`numero_lote` AS lote_numero_lote,
+     lote.`fecha_ingreso` AS lote_fecha_ingreso,
+     lote.`fecha_caducidad` AS lote_fecha_caducidad
+FROM
+     `ubicacion` ubicacion INNER JOIN `inventario` inventario ON ubicacion.`id_ubicacion` = inventario.`id_ubicacion`
+     INNER JOIN `estante` estante ON ubicacion.`id_estante` = estante.`id_estante`
+     INNER JOIN `unidad_de_medida` unidad_de_medida ON inventario.`id_unidad` = unidad_de_medida.`id_unidad`
+     INNER JOIN `producto` producto ON inventario.`id_producto` = producto.`id_producto`
+     INNER JOIN `proveedor` proveedor ON inventario.`id_proveedor` = proveedor.`id_proveedor`
+     INNER JOIN `lote_detalle` lote_detalle ON inventario.`id_inventario` = lote_detalle.`id_inventario`
+     INNER JOIN `lote` lote ON lote_detalle.`id_lote` = lote.`id_lote`
+     AND proveedor.`id_proveedor` = lote.`id_proveedor`
+     AND producto.`id_producto` = lote.`id_producto`
+     INNER JOIN `categoria_producto` categoria_producto ON producto.`id_categoria_producto` = categoria_producto.`id_categoria_producto`
+WHERE
+     inventario.id_agencia = $P{id_agencia}]]>
+	</queryString>
+	<field name="inventario_codigo_producto" class="java.lang.String"/>
+	<field name="inventario_stock_max" class="java.lang.Double"/>
+	<field name="inventario_stock" class="java.lang.Double"/>
+	<field name="inventario_stock_min" class="java.lang.Double"/>
+	<field name="inventario_estado" class="java.lang.String"/>
+	<field name="ubicacion_nivel" class="java.lang.String"/>
+	<field name="ubicacion_sector" class="java.lang.String"/>
+	<field name="estante_nombre" class="java.lang.String"/>
+	<field name="estante_ubicacion" class="java.lang.String"/>
+	<field name="unidad_de_medida_nombre" class="java.lang.String"/>
+	<field name="producto_nombre" class="java.lang.String"/>
+	<field name="categoria_producto_nombre" class="java.lang.String"/>
+	<field name="proveedor_nombre" class="java.lang.String"/>
+	<field name="lote_numero_lote" class="java.lang.String"/>
+	<field name="lote_fecha_ingreso" class="java.sql.Date"/>
+	<field name="lote_fecha_caducidad" class="java.sql.Date"/>
+	<group name="categoria_producto_nombre">
+		<groupExpression><![CDATA[$F{categoria_producto_nombre}]]></groupExpression>
+		<groupHeader>
+			<band height="40">
+				<textField>
+					<reportElement uuid="891cbf3f-c6bc-482e-842e-fd4713cc4dfb" style="SubTitle" x="47" y="13" width="506" height="24" forecolor="#333333"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{categoria_producto_nombre}]]></textFieldExpression>
+				</textField>
+				<rectangle>
+					<reportElement uuid="8b8cb6dd-58e2-4674-9d02-ad107b5fdd19" mode="Opaque" x="0" y="13" width="36" height="24" forecolor="#CCCCCC" backcolor="#CCCCCC"/>
+				</rectangle>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="6"/>
+		</groupFooter>
+	</group>
+	<group name="proveedor_nombre">
+		<groupExpression><![CDATA[$F{proveedor_nombre}]]></groupExpression>
+		<groupHeader>
+			<band height="30">
+				<textField>
+					<reportElement uuid="0ab09aab-25f0-4b02-8546-1ce2357f9060" style="SubTitle" x="0" y="4" width="460" height="20"/>
+					<textElement>
+						<font size="16" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{proveedor_nombre}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<image>
+				<reportElement uuid="edb9056c-e056-4ac9-96f1-7d72617361bf" x="-20" y="0" width="595" height="64"/>
+				<imageExpression><![CDATA["wood.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="860ae5be-2afd-4cc2-a131-0d64802d16a8" style="Title" x="0" y="5" width="263" height="33"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Wood Title]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e11459c6-5056-41bb-b910-b89e2f5700e5" style="SubTitle" x="63" y="39" width="200" height="22" forecolor="#FFFFFF"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[Wood SubTitle]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<line>
+				<reportElement uuid="883b427a-20d6-4c36-b015-38deb51af302" positionType="FixRelativeToBottom" x="0" y="35" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement uuid="33c737e9-e887-445b-8ad4-1c8e279cf920" style="Column header" x="0" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[inventario_codigo_producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="44b7f08d-1dad-4285-a0f9-83e0ac979229" style="Column header" x="50" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[inventario_stock_max]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5b7a88aa-930b-444c-bc0d-dd594a7ea01e" style="Column header" x="100" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[inventario_stock]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d6a1dbb7-0f9b-44cf-9312-23cc9f6c3129" style="Column header" x="150" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[inventario_stock_min]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="fc44fc7b-67e9-4069-a1af-bc22d3a7b0c5" style="Column header" x="200" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[inventario_estado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="717ebf6f-1d61-46df-b055-36bb00ea68bc" style="Column header" x="250" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[ubicacion_nivel]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a64148b6-4a5d-4ad5-9f4f-68f8c0b05cf3" style="Column header" x="300" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[ubicacion_sector]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f83af313-3880-4741-9620-30c0a54041c3" style="Column header" x="350" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[estante_nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="47d9df2c-1815-4e66-8e32-a284d86e61cd" style="Column header" x="400" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[estante_ubicacion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="cd875404-b891-44b1-9daf-4b6a0bb8a95c" style="Column header" x="450" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[unidad_de_medida_nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6b3627ee-9b9d-4e50-b092-a7c46fd15c50" style="Column header" x="500" y="19" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[producto_nombre]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<line>
+				<reportElement uuid="2d9a5971-3ec4-42e4-bda1-e2ac1ec6d361" positionType="FixRelativeToBottom" x="0" y="15" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement uuid="019619f4-2980-4aab-b1c5-db2d9031abc2" style="Detail" x="0" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{inventario_codigo_producto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7b4e56ba-e65d-48e9-986a-0493be879de6" style="Detail" x="50" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{inventario_stock_max}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="96854b89-7059-4233-8fab-0fb59a4d543f" style="Detail" x="100" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{inventario_stock}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d94b53cb-4914-456f-8594-2170f6409cc4" style="Detail" x="150" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{inventario_stock_min}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="c8b28114-25a0-41ed-b477-ec9637479839" style="Detail" x="200" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{inventario_estado}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1d1d71ec-42cf-4d50-b0b2-075e72beee19" style="Detail" x="250" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ubicacion_nivel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d8ad7e40-e2e3-4dd2-b3f1-dccc9d45defd" style="Detail" x="300" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ubicacion_sector}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="868bba3d-cf8e-4476-99b7-f08beea0cfa2" style="Detail" x="350" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{estante_nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="0e1b88ed-c3a9-4bad-a4df-76365b110fef" style="Detail" x="400" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{estante_ubicacion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5b14f8c9-d947-4aa4-8cba-f8199f8ee577" style="Detail" x="450" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{unidad_de_medida_nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="230dfd12-dce8-4345-80fb-044c5036f2b0" style="Detail" x="500" y="0" width="50" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{producto_nombre}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<line>
+				<reportElement uuid="4ebfe53c-2986-4e46-8fbb-3945f6532649" positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement uuid="9912e1e1-5a62-44d2-a80b-58fa1c6b08a4" style="Column header" x="433" y="0" width="80" height="20"/>
+				<textElement textAlignment="Right">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="e5c7d2b7-1d9e-4762-8773-7f5a7aac92ce" style="Column header" x="513" y="0" width="40" height="20"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement uuid="16771c02-d6ff-4876-aea7-c55bcd7cf9f8" style="Column header" x="0" y="0" width="197" height="20"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

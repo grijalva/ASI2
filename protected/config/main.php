@@ -7,14 +7,15 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'GESTION DE DISTRIBUCION, REGISTRO DE INVENTARIO Y SOLICITUDES EN WEB.',
+	'name'=>'GESTION DE REGISTRO, REQUISICIONES Y ENVIO DE SUMINISTROS EN WEB.',
 	'language'=>'es_es',
 	// preloading 'log' component
-	'preload'=>array('log', 'bootstrap'),
+	'preload'=>array('log', /*'bootstrap'*/),
 
 	// autoloading model and component classes
 	'import'=>array(
-		'application.models.*',
+        'ext.JasPHP.*',
+        'application.models.*',
 		'application.components.*',
 	),
 
@@ -38,6 +39,9 @@ return array(
 	'theme'=>'shadow_dancer',
 	// application components
 	'components'=>array(
+        'jasPHP'=> array(
+            'class'=>'jasPHP',
+        ),
 		'bootstrap'=>array(
             'class'=>'application.extensions.bootstrap.components.Bootstrap',
 			'responsiveCss' => true,
